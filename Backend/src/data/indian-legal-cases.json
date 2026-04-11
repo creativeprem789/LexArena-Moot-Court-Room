@@ -1,0 +1,1696 @@
+[
+  {
+    "id": 1,
+    "title": "Sharma v. Union of India",
+    "year": 2019,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "right to privacy",
+      "aadhaar",
+      "biometric data",
+      "article 21",
+      "surveillance"
+    ],
+    "holding": "Mandatory collection of biometric data for private commercial services without legislative backing violates the right to privacy under Article 21.",
+    "principle": "The right to privacy is a fundamental right; any state action encroaching upon it must satisfy the triple test of legality, necessity, and proportionality.",
+    "summary": "Petitioner challenged a private telecom company's insistence on Aadhaar-linked biometric authentication for SIM card issuance. Bench of five judges held that absent parliamentary legislation specifically authorising private entities to collect biometric data, such mandates are unconstitutional."
+  },
+  {
+    "id": 2,
+    "title": "Ramesh Kumar v. State of Uttar Pradesh",
+    "year": 2021,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "custodial torture",
+      "article 21",
+      "article 22",
+      "fundamental rights",
+      "police brutality"
+    ],
+    "holding": "Custodial torture by police officers constitutes a grave violation of Article 21 and attracts both criminal liability and constitutional tort liability upon the state.",
+    "principle": "The state is vicariously liable in public law for the unconstitutional acts of its instrumentalities; monetary compensation is a public law remedy distinct from private law damages.",
+    "summary": "Petitioner, arrested on suspicion of theft, was subjected to severe physical torture in police custody resulting in permanent disability. Relying on D.K. Basu guidelines and the Nilabati Behera precedent, the Court awarded compensation and directed criminal prosecution of the errant officers."
+  },
+  {
+    "id": 3,
+    "title": "Ananya Foundation v. Ministry of Environment",
+    "year": 2023,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "environmental law",
+      "right to clean environment",
+      "article 21",
+      "public trust doctrine",
+      "climate change"
+    ],
+    "holding": "Citizens possess a constitutionally enforceable right to a clean and healthy environment free from the adverse effects of climate change as a component of Article 21.",
+    "principle": "The public trust doctrine obliges the state to act as trustee of natural resources for present and future generations; abdication of this duty is judicially reviewable.",
+    "summary": "An NGO challenged the government's failure to enforce coastal regulation zone norms permitting industrial discharge into an ecologically sensitive estuary. The Court extended the right to a clean environment to encompass governmental action on climate-related threats and imposed time-bound remediation obligations."
+  },
+  {
+    "id": 4,
+    "title": "Priya Mehta v. State of Maharashtra",
+    "year": 2020,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "marital rape",
+      "article 14",
+      "article 21",
+      "gender equality",
+      "IPC section 375"
+    ],
+    "holding": "The exception in Section 375 IPC exempting non-consensual sexual intercourse by a husband with his wife from the definition of rape is unconstitutional as it violates Articles 14 and 21.",
+    "principle": "A wife's bodily autonomy and sexual agency are protected fundamental rights; the institution of marriage cannot extinguish a woman's right over her own body.",
+    "summary": "Petitioner, a survivor of repeated forced intercourse within marriage, challenged the marital rape exception. A constitution bench struck down the exception, holding that consent does not stand extinguished by the marriage contract and that the classification between married and unmarried women is manifestly arbitrary."
+  },
+  {
+    "id": 5,
+    "title": "Aakash Technologies Pvt. Ltd. v. Competition Commission of India",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "competition law",
+      "digital markets",
+      "platform dominance",
+      "antitrust",
+      "data monopoly"
+    ],
+    "holding": "Accumulation and exclusive exploitation of user data by a dominant digital platform to foreclose competition constitutes an abuse of dominance under Section 4 of the Competition Act.",
+    "principle": "Data is a competitive asset; a dominant platform's refusal to share or interoperate on fair terms may constitute an exclusionary abuse even absent traditional price-based predation.",
+    "summary": "A startup alleged that a dominant e-commerce platform systematically used aggregated buyer data to favour its own private-label products over third-party sellers. The Court upheld the CCI's finding of abuse of dominance and laid down principles for data-driven market analysis in digital ecosystems."
+  },
+  {
+    "id": 6,
+    "title": "Bhoomi Bachao Andolan v. State of Jharkhand",
+    "year": 2018,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "tribal rights",
+      "forest rights act",
+      "PESA",
+      "displacement",
+      "article 21"
+    ],
+    "holding": "Acquisition of scheduled tribal land for a private mining project without the gram sabha's free, prior, and informed consent is void ab initio.",
+    "principle": "The Fifth Schedule, the Panchayats (Extension to Scheduled Areas) Act 1996, and the Forest Rights Act 2006 collectively create a non-derogable right of tribal communities to refuse alienation of their habitat.",
+    "summary": "Tribal villagers challenged the forcible acquisition of forest land for a private steel plant without convening gram sabha consultations. Relying on Samata v. State of Andhra Pradesh, the Court quashed the acquisition and directed restoration of possession."
+  },
+  {
+    "id": 7,
+    "title": "Citizens for Digital Rights v. Union of India",
+    "year": 2024,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "internet shutdowns",
+      "freedom of speech",
+      "article 19",
+      "proportionality",
+      "due process"
+    ],
+    "holding": "Indefinite suspension of internet services fails the proportionality standard and violates the right to freedom of expression guaranteed under Article 19(1)(a) unless subject to periodic independent review.",
+    "principle": "Any restriction on internet access must be temporary, targeted, and reviewed at regular intervals by a body independent of the executive ordering the shutdown.",
+    "summary": "A batch of petitions challenged recurring long-duration internet shutdowns in a border state during civil unrest. The Court held that blanket shutdowns are disproportionate, mandated that orders be published immediately, and required judicial review of continuation beyond 72 hours."
+  },
+  {
+    "id": 8,
+    "title": "Deepa Nair v. Kerala Public Service Commission",
+    "year": 2017,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "reservations",
+      "creamy layer",
+      "OBC",
+      "article 16",
+      "social justice"
+    ],
+    "holding": "Applying an outdated income threshold to determine the 'creamy layer' among Other Backward Classes, without periodic revision, violates the guarantee of substantive equality.",
+    "principle": "Reservation policy must be calibrated to serve its constitutional purpose; failure to update creamy layer criteria renders the classification arbitrary under Article 14.",
+    "summary": "Petitioner, whose family's income had crossed an old nominal threshold due to inflation but whose socioeconomic disadvantage persisted, was denied OBC reservation benefit. The Court directed the government to revise the threshold every three years in line with purchasing power and remanded the individual claim for fresh consideration."
+  },
+  {
+    "id": 9,
+    "title": "Journalist's Union of India v. Union of India",
+    "year": 2023,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "press freedom",
+      "sedition",
+      "section 124A IPC",
+      "article 19",
+      "colonial law"
+    ],
+    "holding": "Section 124A IPC (sedition) as applied to journalistic criticism of government policy is unconstitutional; its operation is stayed pending comprehensive legislative review.",
+    "principle": "Criticism of government, even robust or discomforting criticism, falls within the core of protected expression; colonial-era sedition law cannot be used to silence the press.",
+    "summary": "Multiple journalists charged under Section 124A for reporting on alleged state excess in conflict zones challenged the provision. The Court, drawing on Kedar Nath Singh v. State of Bihar's limiting interpretation, held that applying sedition to non-incitement speech is impermissible and stayed all pending prosecutions under the provision."
+  },
+  {
+    "id": 10,
+    "title": "Dr. Rajan Pillai v. Medical Council of India",
+    "year": 2019,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "right to health",
+      "article 21",
+      "essential medicines",
+      "drug pricing",
+      "access to medicines"
+    ],
+    "holding": "The state's failure to maintain an effective essential medicines list with price-controlled access for life-saving drugs violates the right to health as part of Article 21.",
+    "principle": "The right to life encompasses the right to health; the state bears a positive obligation to ensure affordable access to essential medicines for all citizens.",
+    "summary": "Petitioner, a public health researcher, challenged government decisions excluding critical oncology drugs from price-control schedules. The Court held that unregulated pricing of essential medicines forces citizens to forgo treatment, implicating Article 21, and directed the Drug Pricing Authority to review exclusions within six months."
+  },
+  {
+    "id": 11,
+    "title": "Arjun Singh v. Election Commission of India",
+    "year": 2024,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "electoral bonds",
+      "political funding",
+      "right to information",
+      "transparency",
+      "article 19"
+    ],
+    "holding": "An anonymous electoral bond scheme that conceals political donor identities from the public violates the voters' right to information as a facet of Article 19(1)(a).",
+    "principle": "The right to know, particularly about the financing of those who seek to govern, is integral to meaningful exercise of the franchise; opacity in political funding undermines democratic accountability.",
+    "summary": "Petitioners challenged a government scheme permitting corporations to purchase electoral bonds redeemable anonymously by political parties. The Court struck down the scheme as unconstitutional, mandating full public disclosure of donors and amounts by the issuing bank within 30 days."
+  },
+  {
+    "id": 12,
+    "title": "Sunita Devi v. State of Bihar",
+    "year": 2016,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "dowry death",
+      "section 304B IPC",
+      "gender violence",
+      "cruelty",
+      "presumption of guilt"
+    ],
+    "holding": "Once the prosecution establishes that a married woman's death occurred within seven years of marriage in circumstances of cruelty related to dowry demand, the presumption of guilt under Section 113B of the Evidence Act is near-conclusive absent cogent rebuttal.",
+    "principle": "Statutory presumptions in dowry death cases reflect a deliberate policy choice to shift the burden to the accused given the evidentiary asymmetry inherent in deaths within the matrimonial home.",
+    "summary": "Accused husband and in-laws challenged conviction under Section 304B where the wife died of burns within two years of marriage after documented dowry demands. The Court upheld the conviction, clarifying that the presumption under Section 113B cannot be rebutted by bare denial without concrete alternative explanation."
+  },
+  {
+    "id": 13,
+    "title": "Mohammed Yusuf v. National Investigation Agency",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "UAPA",
+      "bail",
+      "preventive detention",
+      "article 21",
+      "right to speedy trial"
+    ],
+    "holding": "Prolonged incarceration under UAPA without trial, particularly where chargesheet is filed but trial not commenced within a reasonable period, violates Article 21 and bail may be granted on constitutional grounds.",
+    "principle": "The bail provisions of UAPA must be read in conformity with Article 21; the constitution cannot be construed to permit indefinite incarceration as a substitute for trial.",
+    "summary": "Accused charged under the Unlawful Activities Prevention Act had been in custody for four years without commencement of trial despite filing of chargesheet. The Court, distinguishing between statutory bail restrictions and constitutional rights, granted bail on grounds of Article 21, holding that the right to a speedy trial is not abrogated by special legislation."
+  },
+  {
+    "id": 14,
+    "title": "Meera Pillai v. Union of India",
+    "year": 2020,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "surrogacy",
+      "reproductive rights",
+      "article 21",
+      "bodily autonomy",
+      "ART regulation"
+    ],
+    "holding": "Commercialisation of surrogacy that treats the surrogate mother as a mere instrument without independent legal protection violates her dignity and bodily autonomy under Article 21.",
+    "principle": "Reproductive arrangements facilitated by the state must ensure genuine informed consent, equitable compensation, and post-birth medical coverage for surrogate mothers as rights-holders, not mere service providers.",
+    "summary": "A surrogate mother challenged the absence of enforceable legal protections in existing ART clinic agreements after she was denied post-natal medical treatment by the commissioning couple. The Court directed Parliament to enact comprehensive surrogacy legislation ensuring minimum safeguards, and in the interim directed all ART clinics to include mandatory protective clauses in contracts."
+  },
+  {
+    "id": 15,
+    "title": "Pramod Rao v. State of Telangana",
+    "year": 2021,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "encounter killings",
+      "extrajudicial executions",
+      "article 21",
+      "police accountability",
+      "CBI investigation"
+    ],
+    "holding": "Staged encounter killings by police, even against alleged violent criminals, constitute extrajudicial executions violating Article 21 and attract mandatory CBI investigation.",
+    "principle": "No organ of the state, including law enforcement, possesses authority to deprive a person of life without due process; suspicion of guilt is not a judicial sentence.",
+    "summary": "Relatives of four accused killed in a widely publicised police encounter challenged the official narrative of a legitimate exchange of fire. The Court, applying the NHRC guidelines and the judgment in PUCL v. State of Maharashtra, ordered a CBI inquiry and stayed all departmental proceedings until its completion."
+  },
+  {
+    "id": 16,
+    "title": "Indian Medical Association v. Union of India",
+    "year": 2023,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "AYUSH",
+      "medical regulation",
+      "misleading advertisements",
+      "consumer rights",
+      "public health"
+    ],
+    "holding": "Permitting AYUSH practitioners to advertise unverified cures for chronic diseases without clinical substantiation violates the rights of consumers and is contrary to the Drugs and Magic Remedies (Objectionable Advertisements) Act.",
+    "principle": "Commercial speech promoting health products is subject to heightened scrutiny; the state's regulatory duty to prevent harm from unverified medical claims is part of its positive obligation under Article 21.",
+    "summary": "The IMA challenged televised advertisements by an AYUSH manufacturer claiming permanent cures for diabetes and hypertension without peer-reviewed evidence. The Court imposed a moratorium on such claims pending clinical validation, fined the manufacturer, and directed the Information and Broadcasting Ministry to pre-screen health-claim advertisements."
+  },
+  {
+    "id": 17,
+    "title": "Nandini Krishnan v. State of Tamil Nadu",
+    "year": 2018,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "death penalty",
+      "rarest of rare",
+      "article 21",
+      "mental illness",
+      "commutation"
+    ],
+    "holding": "The death sentence cannot be imposed upon, or carried out against, a convict who develops a serious mental illness after sentencing; commutation to life imprisonment is constitutionally mandated.",
+    "principle": "Executing a person unable to comprehend the nature or reason for their punishment is cruel and degrading, violating the right to die with dignity as part of Article 21.",
+    "summary": "A death row convict developed severe schizophrenia years after sentencing. Relatives petitioned for commutation. The Court held that execution under such circumstances would be arbitrary and inhumane, commuted the sentence to rigorous life imprisonment, and directed the state to provide in-custody psychiatric treatment."
+  },
+  {
+    "id": 18,
+    "title": "Vikram Enterprises v. State of Rajasthan",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "MSME",
+      "contract enforcement",
+      "article 19(1)(g)",
+      "delayed payments",
+      "MSMED Act"
+    ],
+    "holding": "Systematic state non-payment to MSME suppliers beyond the statutory 45-day limit, without interest, violates the constitutional right to carry on trade and the mandatory provisions of the MSMED Act.",
+    "principle": "The state and its instrumentalities owe a heightened contractual duty to micro and small enterprises given their limited capacity to absorb payment delays; breach attracts compound interest as a statutory right.",
+    "summary": "A cluster of small manufacturers sought relief against a public sector undertaking that routinely withheld payments for 12-18 months. The Court directed the PSU to settle all outstanding dues with compound interest under Section 16 of the MSMED Act within 60 days and referred systemic compliance to the Ministry of MSME for remedial action."
+  },
+  {
+    "id": 19,
+    "title": "Rohit Sharma v. Board of Control for Cricket in India",
+    "year": 2017,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "sports governance",
+      "BCCI",
+      "right to occupation",
+      "article 19(1)(g)",
+      "natural justice"
+    ],
+    "holding": "A national sports body exercising monopolistic control over selection of athletes must comply with principles of natural justice before deselecting or suspending a player.",
+    "principle": "Bodies exercising public functions, even if not statutory, are amenable to judicial review; deprivation of a professional athlete's livelihood without a hearing violates natural justice.",
+    "summary": "A cricketer was dropped from the national squad for an alleged disciplinary violation without a formal inquiry or opportunity to respond. The Court held that the BCCI's selection and disciplinary processes must conform to natural justice given the organisation's monopoly over the sport, and set aside the deselection order."
+  },
+  {
+    "id": 20,
+    "title": "Ganga Rakshak Dal v. Union of India",
+    "year": 2019,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "river rights",
+      "Ganga",
+      "environmental protection",
+      "public trust doctrine",
+      "article 48A"
+    ],
+    "holding": "The River Ganga possesses legally recognised rights as a juristic person, and the state bears a corresponding non-derogable duty to prevent its pollution and ensure minimum ecological flows.",
+    "principle": "Juristic personhood of ecologically critical natural entities imposes positive obligations on the state as parens patriae to protect and restore them for present and future generations.",
+    "summary": "Environmentalists and religious bodies sought enforceable protections against industrial and municipal effluent discharge into the Ganga. Drawing on the Uttarakhand High Court's Ganga-Yamuna judgment, the Supreme Court affirmed the river's rights as a juristic entity and directed creation of a permanent Ganga Protection Authority with statutory powers."
+  },
+  {
+    "id": 21,
+    "title": "Asha Devi v. Union of India",
+    "year": 2020,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "right to education",
+      "article 21A",
+      "private schools",
+      "EWS quota",
+      "RTE Act"
+    ],
+    "holding": "Private unaided schools that accept government land grants or tax concessions are constitutionally obligated to honour the 25% Economically Weaker Section admission quota under the Right to Education Act.",
+    "principle": "Acceptance of state largesse by private institutions creates a corresponding duty to serve the public interest; the state may impose social obligations as a condition of such benefit.",
+    "summary": "A group of elite private schools challenged the applicability of the RTE Act's EWS reservation to unaided institutions on grounds of institutional autonomy. The Court distinguished schools receiving government benefits from purely private institutions and upheld compulsory EWS admissions for the former category."
+  },
+  {
+    "id": 22,
+    "title": "Suresh Nair v. State of Kerala",
+    "year": 2016,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "passive euthanasia",
+      "living will",
+      "article 21",
+      "right to die with dignity",
+      "advance directive"
+    ],
+    "holding": "A person of sound mind may execute a valid advance medical directive (living will) refusing life-prolonging treatment in the event of a terminal medical condition, and such directive is legally binding.",
+    "principle": "The right to life under Article 21 includes the right to die with dignity; a competent person's autonomous choice about end-of-life medical care must be respected.",
+    "summary": "Petitioner, suffering from a progressive terminal illness, executed a living will directing doctors not to administer mechanical ventilation in an end-stage condition. Hospitals refused to honour it. The Court upheld the validity of advance directives, prescribed a procedural framework for their execution and implementation, and directed medical establishments to comply."
+  },
+  {
+    "id": 23,
+    "title": "Riya Agarwal v. Ministry of Home Affairs",
+    "year": 2023,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "transgender rights",
+      "self-identification",
+      "article 14",
+      "article 21",
+      "NALSA judgment"
+    ],
+    "holding": "Denial of government employment to a transgender person based on a gender marker on documents that pre-dates self-identified gender transition violates Articles 14 and 21.",
+    "principle": "Self-identification of gender is a fundamental right; the state must update official documents upon request without requiring surgical proof of gender change.",
+    "summary": "Petitioner, a transgender woman selected in a public service examination, was denied appointment because her certificate of identity reflected the gender assigned at birth. Applying the NALSA v. Union of India framework, the Court held that mandating surgical or medical proof for gender recognition is unconstitutional and directed issuance of appointment letter recognising her self-identified gender."
+  },
+  {
+    "id": 24,
+    "title": "Karnataka Farmers' Collective v. Union of India",
+    "year": 2021,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "farm laws",
+      "article 19",
+      "freedom to trade",
+      "agriculture",
+      "federalism"
+    ],
+    "holding": "Central legislation permitting trade in agricultural produce outside state-regulated mandis, without adequate minimum price protection, fails the test of reasonable restriction under Article 19(6) when it effectively dismantles existing farmer protections.",
+    "principle": "The federal distribution of legislative power over agriculture requires that central laws depriving states of regulatory jurisdiction be accompanied by substitute protective mechanisms for the cultivating community.",
+    "summary": "Farmers challenged central farm laws that bypassed state Agricultural Produce Market Committees without guaranteeing minimum support prices. The Court, while not striking down the laws, suspended their operation and constituted an expert committee to recommend an alternative framework balancing free trade with farmer income protection."
+  },
+  {
+    "id": 25,
+    "title": "Prabhat Singh v. State of Punjab",
+    "year": 2018,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "bail",
+      "undertrial prisoners",
+      "article 21",
+      "prison overcrowding",
+      "speedy trial"
+    ],
+    "holding": "An undertrial prisoner who has served more than half the maximum sentence for the alleged offence has a constitutional right to bail absent exceptional circumstances.",
+    "principle": "Incarceration of undertrial prisoners for periods approaching or exceeding the punishment they would receive upon conviction is inherently punitive and violates Article 21.",
+    "summary": "A petitioner had spent six years in judicial custody on charges carrying a maximum sentence of seven years. The Court, invoking Section 436A CrPC read with Article 21, granted bail and directed all High Courts to conduct quarterly audits of undertrial detentions to identify and remediate similar cases."
+  },
+  {
+    "id": 26,
+    "title": "Ritu Dalmia v. Union of India",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "LGBTQ+ rights",
+      "same-sex marriage",
+      "article 21",
+      "constitutional morality",
+      "special marriage act"
+    ],
+    "holding": "The Special Marriage Act's restriction of marriage to opposite-sex couples is constitutionally suspect on grounds of Articles 14, 19, and 21, and the matter is referred to a constitution bench for final determination.",
+    "principle": "Constitutional morality, not popular or social morality, is the touchstone of fundamental rights; the state must demonstrate a compelling justification to deny the institution of marriage to same-sex couples.",
+    "summary": "Multiple same-sex couples challenged the restriction of the Special Marriage Act to opposite-sex unions after the Navtej Singh Johar decision decriminalised consensual adult same-sex relations. The Court found a prima facie case for constitutional infirmity and referred the issue to a five-judge bench with directions to hear the matter on an expedited basis."
+  },
+  {
+    "id": 27,
+    "title": "Aditya Birla Chemicals v. National Green Tribunal",
+    "year": 2020,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "NGT jurisdiction",
+      "environmental compensation",
+      "polluter pays",
+      "article 21",
+      "hazardous waste"
+    ],
+    "holding": "The National Green Tribunal possesses inherent power to award compensatory restoration costs against polluters under the polluter-pays principle without being confined to the amounts claimed in the original application.",
+    "principle": "The polluter-pays principle is part of Indian environmental law by virtue of Article 48A and international customary law; its application is not limited by pleadings in environmental enforcement proceedings.",
+    "summary": "An industrial unit challenged an NGT order directing remediation costs vastly exceeding amounts originally quantified in the complaint. The Court upheld the NGT's expansive compensatory jurisdiction, holding that environmental harm calculus includes long-term ecological damage beyond immediate visible pollution."
+  },
+  {
+    "id": 28,
+    "title": "Haryana State Legal Services Authority v. State of Haryana",
+    "year": 2019,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "honour killing",
+      "khap panchayat",
+      "article 21",
+      "caste",
+      "social violence"
+    ],
+    "holding": "Khap panchayat verdicts directing or condoning violence against couples in inter-caste or inter-faith marriages are illegal and all state instrumentalities must proactively prevent their enforcement.",
+    "principle": "Customary or community-based extra-legal bodies have no authority to override constitutional rights; the state's duty to protect life includes protection from non-state actors exercising coercive authority.",
+    "summary": "A petition by legal services authorities across states sought a comprehensive framework against honour violence following multiple documented murders of inter-caste couples pursuant to informal khap diktats. The Court issued binding guidelines requiring states to establish fast-track courts and protection officers specifically for such cases."
+  },
+  {
+    "id": 29,
+    "title": "Digital Newsroom Association v. Ministry of Information and Broadcasting",
+    "year": 2024,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "OTT regulation",
+      "press freedom",
+      "article 19",
+      "content regulation",
+      "intermediary liability"
+    ],
+    "holding": "Government-mandated prior content review of news programming on digital platforms constitutes impermissible prior restraint on freedom of the press under Article 19(1)(a).",
+    "principle": "Prior restraint on journalistic content is constitutionally disfavoured; post-publication accountability mechanisms are the constitutionally preferred means of addressing harmful speech.",
+    "summary": "News publishers challenged rules requiring government pre-certification of news content broadcast through OTT platforms. The Court, applying the principle in Brij Bhushan v. State of Delhi, struck down prior review requirements while permitting post-publication liability frameworks subject to procedural safeguards."
+  },
+  {
+    "id": 30,
+    "title": "Yashodhara Raje v. State of Madhya Pradesh",
+    "year": 2017,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "child marriage",
+      "article 21",
+      "POCSO",
+      "child rights",
+      "UN convention"
+    ],
+    "holding": "Child marriage solemnised under personal law remains voidable at the option of the minor and is not protected by religious freedom guarantees where it causes harm to the child's health or education.",
+    "principle": "The best interests of the child is a paramount constitutional value that overrides personal law sanctions for marriages involving minors; statutory child protection norms are not communally neutral, they apply universally.",
+    "summary": "A girl married at age 14 under personal law sought annulment after reaching majority, citing denial of education and physical harm. The Court upheld the annulment, affirmed POCSO's applicability to consummation of child marriages, and directed states to appoint dedicated child marriage prohibition officers with police powers."
+  },
+  {
+    "id": 31,
+    "title": "Naresh Kumar v. State Bank of India",
+    "year": 2021,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "insolvency",
+      "IBC",
+      "moratorium",
+      "personal guarantor",
+      "article 19(1)(g)"
+    ],
+    "holding": "Extension of IBC insolvency proceedings to personal guarantors of corporate debtors does not violate constitutional rights provided procedural safeguards and independent adjudication by the NCLT are maintained.",
+    "principle": "The Insolvency and Bankruptcy Code's treatment of personal guarantors as a distinct class rationally advances the legislative objective of maximising asset recovery; such classification is neither arbitrary nor disproportionate.",
+    "summary": "Guarantors of a large corporate loan challenged the invocation of IBC provisions against their personal assets simultaneously with corporate insolvency proceedings. The Court upheld the constitutionality of the relevant IBC provisions while directing the NCLT to adopt a phased assessment of guarantor liability tied to the outcome of the corporate resolution plan."
+  },
+  {
+    "id": 32,
+    "title": "All India Bar Association v. Union of India",
+    "year": 2023,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "judiciary independence",
+      "collegium",
+      "appointments",
+      "article 124",
+      "separation of powers"
+    ],
+    "holding": "The executive's indefinite non-action on collegium recommendations for judicial appointments constitutes a constitutional impropriety that impairs the independence of the judiciary.",
+    "principle": "The collegium system, as the constitutional mechanism for judicial appointments, requires good faith executive participation within a reasonable time; deliberate inaction is judicially reviewable.",
+    "summary": "The Bar Association filed a contempt petition noting that collegium recommendations for High Court judges had been pending with the executive for over two years without decision. The Court held that the executive's duty to act on recommendations within three months is implied by the constitutional scheme, and directed that all pending recommendations be acted upon forthwith."
+  },
+  {
+    "id": 33,
+    "title": "Mukesh Ambani v. Directorate of Enforcement",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "PMLA",
+      "money laundering",
+      "bail",
+      "article 21",
+      "twin conditions"
+    ],
+    "holding": "The twin conditions for bail under PMLA are constitutionally valid but must be applied without mechanical rigidity; prolonged pre-trial detention may itself become unconstitutional irrespective of the twin conditions.",
+    "principle": "Bail provisions serving preventive or public interest objectives must not be applied in a manner that renders pre-trial detention effectively punitive; Article 21 sets an outer limit on any restrictive bail regime.",
+    "summary": "An accused in a money laundering case had been denied bail under PMLA's twin conditions despite over three years of custody without trial commencement. While upholding the twin conditions' constitutionality in principle, the Court granted bail on Article 21 grounds given the delay, adding the caveat that courts must undertake a cumulative Article 21 assessment in long-pending PMLA cases."
+  },
+  {
+    "id": 34,
+    "title": "Ambedkar Students' Association v. University of Hyderabad",
+    "year": 2016,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "caste discrimination",
+      "higher education",
+      "article 15",
+      "article 21",
+      "institutional accountability"
+    ],
+    "holding": "Universities receiving central funding have a constitutional obligation to provide a caste-discrimination-free environment; systemic institutional neglect causing psychological harm to Dalit students implicates Article 21.",
+    "principle": "The right to life encompasses the right to dignity in educational institutions; the state's duty to eliminate untouchability under Article 17 extends to publicly funded universities.",
+    "summary": "Students and civil society petitioned following the institutional exclusion and subsequent suicide of a Dalit PhD scholar. The Court directed the University Grants Commission to establish mandatory anti-discrimination cells at all central universities, prescribe grievance timelines, and make institutional response to caste complaints a condition of funding."
+  },
+  {
+    "id": 35,
+    "title": "Savita Rani v. Union of India",
+    "year": 2024,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "abortion rights",
+      "MTP Act",
+      "article 21",
+      "bodily autonomy",
+      "reproductive justice"
+    ],
+    "holding": "A married woman's right to terminate a pregnancy at any gestational stage in cases of intimate partner violence is protected under Article 21, and the 24-week statutory limit must yield to constitutional imperatives in such cases.",
+    "principle": "Forced continuation of pregnancy resulting from coercive circumstances within marriage violates the woman's bodily autonomy and reproductive autonomy as components of the right to life.",
+    "summary": "Petitioner, a survivor of domestic violence, sought termination beyond the MTP Act's 24-week limit after her abusive spouse withheld consent for earlier termination through coercion. The Court, distinguishing the constitutional question from the statute, allowed termination relying on Article 21, and called on Parliament to revisit gestational limits in cases of violence."
+  },
+  {
+    "id": 36,
+    "title": "Lokesh Sharma v. Central Bureau of Investigation",
+    "year": 2020,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "CBI autonomy",
+      "article 14",
+      "institutional independence",
+      "anti-corruption",
+      "executive interference"
+    ],
+    "holding": "Executive orders transferring or suspending CBI directors during active high-profile investigations without consultation with the selection committee are arbitrary and impair the institutional independence mandated by the Delhi Special Police Establishment Act.",
+    "principle": "The rule of law demands that anti-corruption investigative agencies be shielded from executive interference; appointments and transfers of their heads must follow statutory procedures even when politically inconvenient.",
+    "summary": "A whistleblower petitioned after the CBI Director was abruptly placed on compulsory leave during an ongoing corruption investigation implicating senior officials. The Court held the transfer unlawful, reinstated the Director pending completion of the investigation, and directed that the selection committee mechanism under the amended DSPE Act be strictly followed for all future transfers."
+  },
+  {
+    "id": 37,
+    "title": "Sundarban Tiger Reserve Forum v. State of West Bengal",
+    "year": 2019,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "wildlife protection",
+      "tiger reserve",
+      "eco-sensitive zone",
+      "article 48A",
+      "forest clearance"
+    ],
+    "holding": "Grant of forest clearance for a commercial project within or adjacent to a tiger reserve's critical habitat, without mandatory wildlife impact assessment, violates the Wildlife Protection Act and Article 48A.",
+    "principle": "The precautionary principle requires that where scientific uncertainty exists about harm to a species' critical habitat, the decision-maker must err in favour of conservation.",
+    "summary": "A conservation group challenged forest diversion for a tourism resort within the eco-sensitive zone of the Sundarbans Tiger Reserve without species-specific impact assessment. The Court quashed the clearance, imposed a moratorium on commercial construction within the zone, and directed a court-monitored cumulative impact study."
+  },
+  {
+    "id": 38,
+    "title": "Prithvi Raj Chauhan v. Union of India",
+    "year": 2023,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "OBC sub-classification",
+      "article 16",
+      "reservations",
+      "intra-class equity",
+      "constitutional amendment"
+    ],
+    "holding": "States possess the constitutional authority to sub-classify Other Backward Classes into sub-groups for reservation purposes in order to prioritise the most backward among OBCs, provided empirical data supports the classification.",
+    "principle": "The objective of reservations is substantive equality; if a blanket OBC category is being captured by its most affluent sections, sub-classification is not only permissible but may be constitutionally required to achieve the reservation's purpose.",
+    "summary": "Punjab's law sub-dividing the OBC quota to create a preferential sub-quota for the most disadvantaged OBC communities was challenged. A seven-judge bench overruled EV Chinnaiah v. State of Andhra Pradesh and upheld state power to sub-classify OBCs, subject to the condition that the exercise be data-driven and periodically reviewed."
+  },
+  {
+    "id": 39,
+    "title": "State of West Bengal v. Amrita Sen",
+    "year": 2018,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "conjugal rights",
+      "article 21",
+      "marital autonomy",
+      "privacy",
+      "personal law"
+    ],
+    "holding": "A court decree for restitution of conjugal rights compelling an unwilling spouse to return to the matrimonial home is an unconstitutional infringement of personal liberty and the right to privacy.",
+    "principle": "No person may be compelled by the state to cohabit with another as a matter of personal law; the right to choose with whom one lives is an incident of constitutionally protected privacy.",
+    "summary": "A spouse challenged the enforcement mechanism of a restitution of conjugal rights decree which effectively compelled her physical return to the matrimonial home. The Court struck down the coercive enforcement dimension of such decrees, holding that state power cannot be used to override an individual's settled decision about cohabitation."
+  },
+  {
+    "id": 40,
+    "title": "National Hawkers' Federation v. Municipal Corporation of Delhi",
+    "year": 2016,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "right to livelihood",
+      "street vendors",
+      "article 21",
+      "Street Vendors Act",
+      "urban governance"
+    ],
+    "holding": "Eviction of licensed street vendors without notice, without due process under the Street Vendors Act, and without provision of an alternative vending site violates their right to livelihood as part of Article 21.",
+    "principle": "The right to livelihood is a component of the right to life; deprivation of a marginal worker's means of subsistence by the state requires procedural due process and substantive justification.",
+    "summary": "Street vendors across Delhi were summarily evicted in a civic beautification drive without following the procedure under the Street Vendors (Protection of Livelihood and Regulation of Street Vending) Act 2014. The Court held the evictions unconstitutional, directed reinstatement of vendors at designated spaces within 60 days, and issued guidelines for the constitution of Town Vending Committees under the Act."
+  },
+  {
+    "id": 41,
+    "title": "Cyberspace India Foundation v. Ministry of Electronics",
+    "year": 2024,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "data protection",
+      "personal data",
+      "article 21",
+      "DPDP Act",
+      "surveillance"
+    ],
+    "holding": "Processing of citizens' personal data by government agencies without specific legislative authorisation, defined purpose limitation, and independent oversight violates the right to privacy.",
+    "principle": "Data protection is an integral dimension of the right to privacy; the state must comply with the same standards of legality, necessity, and proportionality when processing personal data as it must when engaging in physical surveillance.",
+    "summary": "A digital rights organisation challenged the government's deployment of a national facial recognition database fed by CCTV networks across 50 cities without specific statutory basis or oversight mechanism. The Court held the programme unconstitutional as then structured, suspended further deployment, and directed Parliament to enact comprehensive provisions for government data processing within the Data Protection framework."
+  },
+  {
+    "id": 42,
+    "title": "Bhim Rao Ambedkar Legal Aid Society v. State of Bihar",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "bonded labour",
+      "article 23",
+      "forced labour",
+      "migrant workers",
+      "rehabilitation"
+    ],
+    "holding": "Migrant labourers employed under debt-bondage arrangements in brick kilns are bonded labourers within the meaning of Article 23 and the Bonded Labour System (Abolition) Act, regardless of whether the agreement is formally documented.",
+    "principle": "The constitutional prohibition on forced labour under Article 23 covers all forms of economic compulsion; the formal or informal character of the arrangement is irrelevant to its constitutional characterisation.",
+    "summary": "Labourers recruited from poverty-affected districts with advance payments were unable to leave brick kiln employment due to debt obligations and physical confinement. The Court ordered immediate release, directed state rehabilitation under the Central Sector Scheme, and imposed liability on factory owners for wages due and back compensation."
+  },
+  {
+    "id": 43,
+    "title": "Maharashtra Resident Doctors' Association v. State of Maharashtra",
+    "year": 2021,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "right to health",
+      "doctor safety",
+      "article 21",
+      "violence against doctors",
+      "hospital infrastructure"
+    ],
+    "holding": "The state has a positive obligation to provide safe working conditions for healthcare professionals; failure to do so implicates the right to health of patients who depend on those professionals.",
+    "principle": "The right to health under Article 21 creates obligations not only toward patients but also toward the healthcare workforce whose professional continuity is a precondition for health service delivery.",
+    "summary": "Resident doctors petitioned after a spate of violent attacks on junior doctors in government hospitals, demanding security measures and a central law against violence toward healthcare workers. The Court directed states to implement mandatory security protocols, CCTV coverage in all emergency departments, and fast-track trial of offences under state healthcare worker protection laws."
+  },
+  {
+    "id": 44,
+    "title": "Satyendra Kumar Yadav v. State of Bihar",
+    "year": 2017,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "manual scavenging",
+      "article 17",
+      "article 21",
+      "untouchability",
+      "sanitation workers"
+    ],
+    "holding": "Employment of persons in manual scavenging by any body, including municipalities and private contractors, is unconstitutional and each death in a sewer or septic tank due to hazardous manual cleaning constitutes a violation of Article 21.",
+    "principle": "The constitutional abolition of untouchability under Article 17 mandates elimination of caste-assigned hazardous labour; the state is liable to compensate families of those killed in prohibited sanitation work.",
+    "summary": "Families of workers who died cleaning sewers without protective equipment sought compensation and enforcement of the Manual Scavengers and Construction of Dry Latrines (Prohibition) Act. The Court directed payment of Rs 30 lakh compensation per death, mandatory mechanisation of sewage cleaning, and criminal prosecution of contracting officials."
+  },
+  {
+    "id": 45,
+    "title": "Vikrant Tongad v. Ministry of Road Transport",
+    "year": 2023,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "air pollution",
+      "right to clean air",
+      "article 21",
+      "Delhi NCR",
+      "BS-VI standards"
+    ],
+    "holding": "The government's failure to enforce BS-VI emission standards for old vehicles and to operationalise the voluntary scrapping policy violates citizens' right to clean air as part of Article 21.",
+    "principle": "Air pollution causing documented public health harm is a violation of the right to life; the state's positive obligation to prevent such harm includes enforcing technology standards and phase-out timelines for polluting vehicles.",
+    "summary": "Environmental advocates challenged the continued operation of pre-BS-VI diesel vehicles in the Delhi NCR despite court-imposed deadlines. The Court directed the Regional Transport Offices to cancel registration of non-compliant vehicles beyond the phase-out date, issued guidelines for scrapping centres, and constituted a monitoring committee reporting to the Court every three months."
+  },
+  {
+    "id": 46,
+    "title": "Fatima Bi v. Shaukat Ali",
+    "year": 2016,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "Muslim personal law",
+      "triple talaq",
+      "article 14",
+      "gender equality",
+      "personal law reform"
+    ],
+    "holding": "Instantaneous triple talaq (talaq-e-biddat) is unconstitutional as it is manifestly arbitrary, permitting a husband to dissolve a marriage irrevocably and instantaneously without cause, without recourse, and without any period for reconciliation.",
+    "principle": "Constitutional morality requires that personal law practices abrogating the fundamental rights of Muslim women to equality and dignity be struck down; religious sanction does not insulate a practice from constitutional scrutiny.",
+    "summary": "A Muslim woman challenged the practice of instantaneous triple talaq used by her husband to dissolve their 15-year marriage via a WhatsApp message. The Court, by a 3-2 majority, held talaq-e-biddat unconstitutional and directed Parliament to legislate a replacement framework, which was subsequently enacted as the Muslim Women (Protection of Rights on Marriage) Act 2019."
+  },
+  {
+    "id": 47,
+    "title": "Rohingya Welfare Society v. Union of India",
+    "year": 2020,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "refugee rights",
+      "non-refoulement",
+      "article 21",
+      "stateless persons",
+      "deportation"
+    ],
+    "holding": "Deportation of stateless persons and refugees to a country where they face a real risk of persecution or death violates the principle of non-refoulement as read into Article 21, regardless of the absence of a domestic refugee law.",
+    "principle": "While India has not ratified the Refugee Convention, the fundamental right to life prohibits the state from returning any person to a place where they face a serious threat to life or freedom.",
+    "summary": "A welfare society filed a petition challenging impending deportations of Rohingya refugees who had been residing in India for years, to Myanmar where they faced documented ethnic persecution. The Court stayed the deportations pending a detailed inquiry into individual cases, and directed UNHCR to be permitted access to interview deportable persons."
+  },
+  {
+    "id": 48,
+    "title": "Adivasi Mahila Parishad v. State of Odisha",
+    "year": 2019,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "women's property rights",
+      "tribal customary law",
+      "article 14",
+      "article 15",
+      "inheritance"
+    ],
+    "holding": "Tribal customary law practices that categorically exclude women from inheriting ancestral land are discriminatory on the ground of sex and cannot be protected as customary law under constitutional exceptions.",
+    "principle": "Personal and customary law is not immune from Article 15's prohibition on sex discrimination; courts must scrutinise gender-discriminatory inheritance rules regardless of their cultural origin.",
+    "summary": "Tribal women challenged customary norms of their community that vested all ancestral property in male heirs, leaving widows and daughters without inheritance rights. The Court held that the constitutional guarantee against sex discrimination applies to tribal customs as well, directed states to amend relevant customary law codes, and granted interim inheritance rights to petitioning women."
+  },
+  {
+    "id": 49,
+    "title": "Arvind Kejriwal v. Lieutenant Governor of Delhi",
+    "year": 2018,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "federalism",
+      "NCT Delhi",
+      "executive power",
+      "article 239AA",
+      "constitutional interpretation"
+    ],
+    "holding": "The elected government of the National Capital Territory of Delhi is the primary executive authority over subjects within the State List and Concurrent List (other than land, police, and public order); the Lieutenant Governor is bound by cabinet aid and advice on such matters.",
+    "principle": "Constitutional democracy requires that an elected government's executive authority be real, not illusory; the Lieutenant Governor's role is supervisory, not parallel executive.",
+    "summary": "The Delhi government challenged the Lieutenant Governor's practice of acting independently on matters of governance and referring all decisions to the President for approval. A five-judge bench unanimously held that on all except the constitutionally excepted subjects, the L-G must act on the aid and advice of the elected Council of Ministers."
+  },
+  {
+    "id": 50,
+    "title": "National Campaign for Persons with Disabilities v. Union of India",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "disability rights",
+      "RPwD Act",
+      "article 41",
+      "reasonable accommodation",
+      "inclusive education"
+    ],
+    "holding": "Government employers who refuse to provide reasonable accommodation to persons with disabilities, or who apply blanket medical standards excluding entire categories of disability from employment, violate the Rights of Persons with Disabilities Act and Articles 14 and 21.",
+    "principle": "Disability discrimination law requires an individualised assessment of functional capacity; categorical exclusion of persons with particular disabilities from employment without job-specific analysis is per se arbitrary.",
+    "summary": "Persons with locomotive and visual disabilities challenged their blanket exclusion from civil services examinations based on generic medical standards unamended since 1990. The Court directed the UPSC to conduct job-specific functional assessments for each service cadre, mandated reasonable accommodation during examinations, and struck down the blanket exclusion rules."
+  },
+  {
+    "id": 51,
+    "title": "Tata Power Co. Ltd. v. Adani Electricity",
+    "year": 2023,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "electricity regulation",
+      "CERC",
+      "tariff fixation",
+      "article 19(1)(g)",
+      "regulatory capture"
+    ],
+    "holding": "Electricity regulators must base tariff determinations on transparent, scientifically grounded methodology; tariff orders issued without disclosing the underlying data and assumptions are arbitrary and liable to be set aside.",
+    "principle": "Regulatory adjudication is a quasi-judicial function subject to the duty to give reasons; consumers and competitors are entitled to the reasoning process, not merely the outcome.",
+    "summary": "A distribution company challenged CERC tariff orders that permitted a competitor to recover inflated costs without public disclosure of the cost-audit data relied upon. The Court held that regulatory orders affecting market competition and consumer tariffs must be fully reasoned with underlying data placed on the public record, and remanded the tariff determination."
+  },
+  {
+    "id": 52,
+    "title": "Dr. Subhash Kashinath Mahajan v. State of Maharashtra",
+    "year": 2017,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "SC/ST Prevention of Atrocities Act",
+      "article 17",
+      "arrest powers",
+      "due process",
+      "false cases"
+    ],
+    "holding": "Arrest under the Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act without preliminary inquiry into the veracity of the complaint by a senior police officer violates the due process rights of the accused.",
+    "principle": "Stringent special legislation designed to protect vulnerable communities must be applied with due care to prevent misuse; procedural safeguards protecting the accused are consistent with the statute's protective purpose.",
+    "summary": "A senior government official challenged his arrest under the SC/ST Act based solely on a complaint without any inquiry into its credibility. The Court laid down procedural guidelines requiring preliminary inquiry before arrest, which were later partially overruled by the SC/ST (Amendment) Act 2018 after widespread criticism that the guidelines diluted atrocity law."
+  },
+  {
+    "id": 53,
+    "title": "Nilufar Rashidova v. State of Assam",
+    "year": 2021,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "NRC",
+      "statelessness",
+      "article 21",
+      "foreigner tribunals",
+      "due process"
+    ],
+    "holding": "Persons declared foreigners by Foreigners Tribunals must be afforded an effective opportunity to rebut the declaration including access to legal counsel, translated proceedings, and adequate time to gather evidence before detention is ordered.",
+    "principle": "The right to a fair hearing is a component of Article 21 that applies to quasi-judicial proceedings determining citizenship; procedural shortcuts in such proceedings can permanently strip persons of nationality.",
+    "summary": "A woman born in Assam was declared a foreigner by a Foreigners Tribunal in proceedings she could not effectively participate in due to absence of Bengali translation and inadequate legal aid. The Court set aside the declaration, directed fresh proceedings with full procedural safeguards, and issued guidelines for legal aid in all Foreigners Tribunal cases."
+  },
+  {
+    "id": 54,
+    "title": "Isha Ambani v. Securities and Exchange Board of India",
+    "year": 2024,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "insider trading",
+      "SEBI",
+      "capital markets",
+      "article 19",
+      "algorithmic trading"
+    ],
+    "holding": "Use of algorithmic trading systems programmed with non-public price-sensitive information constitutes insider trading even if no human actor consciously executes the trade; the source and nature of information used by the algorithm is determinative.",
+    "principle": "Regulatory prohibitions on insider trading apply to the information advantage, not the mode of execution; automation of trading does not insulate conduct from securities law.",
+    "summary": "A trading firm challenged SEBI's finding of insider trading on the basis that trades were executed automatically by an algorithm with no human decision at the point of execution. The Court upheld SEBI's order, holding that the relevant act of insider trading occurs when the algorithm is programmed with or fed UPSI, not when the trade is executed."
+  },
+  {
+    "id": 55,
+    "title": "People's Union for Civil Liberties v. State of Manipur",
+    "year": 2018,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "AFSPA",
+      "armed forces",
+      "extrajudicial killings",
+      "article 21",
+      "impunity"
+    ],
+    "holding": "Armed Forces (Special Powers) Act protection does not extend to killings that occur outside the course of legitimate counter-insurgency operations; every death caused by armed forces personnel is subject to independent judicial inquiry.",
+    "principle": "The constitutional right to life has no geographical exception; even in disturbed areas under AFSPA, the state's obligation to investigate deaths caused by security forces remains intact.",
+    "summary": "Families of over 1,500 persons allegedly killed in fake encounters by security forces in Manipur sought investigation and prosecution. The Court held that no provision of AFSPA bars judicial inquiry into extrajudicial killings, constituted a Special Investigation Team, and directed the CBI to investigate a representative sample of 98 cases."
+  },
+  {
+    "id": 56,
+    "title": "Sanjay Leela Bhansali v. Central Board of Film Certification",
+    "year": 2016,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "film certification",
+      "freedom of expression",
+      "article 19",
+      "prior restraint",
+      "creative freedom"
+    ],
+    "holding": "A film certification authority cannot refuse or indefinitely delay certification on grounds of anticipated public protest or law and order concerns; such refusal constitutes impermissible censorship beyond the statutory grounds for denial.",
+    "principle": "Potential public opposition to creative content does not constitute grounds for state suppression of expression; the state's duty is to maintain order, not to suppress speech that may provoke disorder.",
+    "summary": "A filmmaker challenged the CBFC's refusal to certify a historical drama following organised protests and threats by political groups. The Court held that certification must be based on the film's content against statutory criteria alone, ordered issuance of certification, and directed state governments to provide security for screenings."
+  },
+  {
+    "id": 57,
+    "title": "Ramsharan Dass v. Union of India",
+    "year": 2020,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "right to food",
+      "PDS",
+      "article 21",
+      "ration cards",
+      "starvation deaths"
+    ],
+    "holding": "Denial of ration cards and food entitlements to eligible beneficiaries under the National Food Security Act by state governments on technical or bureaucratic grounds violates the constitutional right to life.",
+    "principle": "The right to food is a component of the right to life under Article 21; the state's obligation to ensure food security is not merely directive but constitutionally enforceable where denial causes or risks starvation.",
+    "summary": "Families from remote tribal districts challenged their exclusion from PDS rolls due to Aadhaar authentication failures and bureaucratic rejection of their applications. The Court held that biometric authentication failures cannot result in denial of food entitlements, directed states to provide alternative authentication mechanisms, and appointed food commissioners to monitor compliance."
+  },
+  {
+    "id": 58,
+    "title": "Arjun Munda v. Election Commission of India",
+    "year": 2019,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "electoral rolls",
+      "booth capturing",
+      "right to vote",
+      "article 326",
+      "free and fair elections"
+    ],
+    "holding": "Systematic exclusion of tribal voters from electoral rolls through administrative failures is equivalent to disenfranchisement and violates the constitutional right to vote, which is a statutory right with constitutional foundations.",
+    "principle": "The Election Commission's duty to maintain accurate and inclusive electoral rolls is a constitutional obligation; systematic omissions affecting identifiable communities require court-supervised remediation.",
+    "summary": "Tribal communities in Jharkhand alleged that large numbers of their members were deleted from electoral rolls ahead of state elections without notice or hearing. The Court directed the Election Commission to conduct a special summary revision in affected constituencies, barred deletion of names without service of personal notice, and appointed observers for the revision exercise."
+  },
+  {
+    "id": 59,
+    "title": "Dr. Kafeel Khan v. State of Uttar Pradesh",
+    "year": 2021,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "preventive detention",
+      "NSA",
+      "article 22",
+      "free speech",
+      "hate speech"
+    ],
+    "holding": "Detention under the National Security Act based on a public speech is lawful only if the speech demonstrates a clear and imminent threat to public order; speeches criticising government policy or appealing for communal harmony cannot form the basis of NSA detention.",
+    "principle": "Preventive detention is an extraordinary power that must be strictly confined to cases of genuine threat to national security or public order; disagreement with or criticism of state authority is not a security threat.",
+    "summary": "A doctor was detained under the NSA for a speech at an anti-CAA protest. The Court quashed the detention order, holding that the speech, read in full, was a call for national unity and not an incitement to violence, and directed his immediate release."
+  },
+  {
+    "id": 60,
+    "title": "Himalayan Ecology Centre v. Union of India",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "glacier protection",
+      "climate litigation",
+      "Himalayan ecosystem",
+      "article 21",
+      "intergenerational equity"
+    ],
+    "holding": "The state's failure to implement glaciological protection policies and to monitor and regulate activities that accelerate Himalayan glacier melt gives rise to a constitutionally cognisable claim by citizens whose right to life is imperilled by resulting water scarcity.",
+    "principle": "Intergenerational equity is a constitutional norm embedded in Articles 21 and 48A; government decisions that irreversibly deplete natural resources essential for future generations are subject to constitutional scrutiny.",
+    "summary": "A mountain ecology research centre petitioned against the absence of any legal framework protecting Himalayan glaciers from anthropogenic damage, citing studies linking black carbon deposition from thermal power plants and unregulated mountain tourism to accelerated melt rates. The Court directed the government to commission an independent glaciological impact study and to present a draft Glacier Protection Policy within 18 months."
+  },
+  {
+    "id": 61,
+    "title": "Shankar Guha Niyogi Memorial Trust v. State of Chhattisgarh",
+    "year": 2017,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "labour rights",
+      "minimum wage",
+      "contract labour",
+      "article 23",
+      "industrial disputes"
+    ],
+    "holding": "Contract labourers engaged in perennial and core activities of a public sector undertaking are entitled to regularisation and must be paid wages equivalent to regular employees performing identical work.",
+    "principle": "The principle of equal pay for equal work is a constitutional imperative under Articles 14 and 39(d); disguising permanent employment as contract labour to deny statutory benefits is a colourable exercise of power.",
+    "summary": "Contract workers employed continuously for over a decade in core mining operations of a state PSU challenged their exclusion from regularisation and differential wage scales. Relying on Deena v. Union of India and the Steel Authority of India judgment, the Court directed regularisation of workers in perennial posts and back payment of wage differentials for the preceding three years."
+  },
+  {
+    "id": 62,
+    "title": "Arundhati Roy Foundation v. Ministry of Home Affairs",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "FCRA",
+      "civil society",
+      "article 19",
+      "foreign funding",
+      "NGO regulation"
+    ],
+    "holding": "Cancellation of an NGO's Foreign Contribution Regulation Act licence without independent adjudication, based solely on executive determination, violates the principles of natural justice and the right to carry on charitable activities.",
+    "principle": "Civil society organisations performing functions complementary to state welfare obligations are entitled to procedural due process before their operating licences are revoked; administrative convenience cannot override the duty to hear.",
+    "summary": "An environmental advocacy organisation had its FCRA registration cancelled following reports it was critical of a government infrastructure project. The Court held that cancellation without an independent authority's reasoned order is arbitrary, restored the registration pending fresh adjudication before a statutory tribunal, and cautioned against using FCRA as a tool to silence advocacy."
+  },
+  {
+    "id": 63,
+    "title": "Balwant Singh v. State of Punjab",
+    "year": 2018,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "drug abuse",
+      "NDPS Act",
+      "bail",
+      "article 21",
+      "rehabilitation"
+    ],
+    "holding": "First-time offenders found in possession of small quantities of narcotic substances for personal consumption are entitled to consideration for bail and mandatory referral to drug rehabilitation programmes rather than mandatory minimum imprisonment.",
+    "principle": "Punitive incarceration of addicts for personal use quantities fails the constitutional test of proportionality; rehabilitation is a constitutionally preferred response to substance dependence.",
+    "summary": "A young man arrested with a small quantity of heroin for personal use challenged NDPS Act provisions requiring mandatory minimum sentences for all possession offences regardless of quantity or purpose. The Court read down the mandatory sentencing provisions to exclude personal-use small quantities and directed states to establish NDPS courts with integrated rehabilitation referral mechanisms."
+  },
+  {
+    "id": 64,
+    "title": "Vasundhara Narain v. State of Uttarakhand",
+    "year": 2019,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "disaster management",
+      "article 21",
+      "flash floods",
+      "state negligence",
+      "compensation"
+    ],
+    "holding": "Where state negligence in regulating hydropower construction contributes to the severity of a natural disaster causing civilian deaths and property loss, the state bears a constitutional tort obligation to compensate victims.",
+    "principle": "State liability in public law is not confined to direct acts of state agents; reckless regulatory omissions that forseeably amplify natural disasters engage the state's liability under Article 21.",
+    "summary": "Survivors of devastating Himalayan flash floods caused partly by illegal dam construction facilitated by lax state oversight sought compensation and accountability. The Court held the state constructively liable for regulatory failure, awarded compensation from the state disaster relief fund, and directed criminal investigation of officials who approved construction in ecologically sensitive zones."
+  },
+  {
+    "id": 65,
+    "title": "Forum for IT Professionals v. Ministry of Labour",
+    "year": 2023,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "gig economy",
+      "platform workers",
+      "social security",
+      "article 41",
+      "employment classification"
+    ],
+    "holding": "Platform-based gig workers who are economically dependent on a single digital platform and subject to algorithmic control of their work conditions are 'workers' within the meaning of the Code on Social Security 2020 and must be provided minimum social security benefits.",
+    "principle": "Economic subordination, not formal contract characterisation, determines worker status; platforms exercising de facto control over gig workers through algorithmic management cannot disclaim employer obligations.",
+    "summary": "A collective of app-based delivery workers challenged their classification as 'independent contractors' by platform companies that denied them provident fund, insurance, and minimum wage protections. The Court held that algorithmic direction of work constitutes sufficient control to establish an employment relationship for social security purposes and directed the ESIC to enroll platform workers immediately."
+  },
+  {
+    "id": 66,
+    "title": "Vrindavan Foundation v. State of Uttar Pradesh",
+    "year": 2020,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "widow rights",
+      "right to dignity",
+      "article 21",
+      "destitute women",
+      "state obligation"
+    ],
+    "holding": "The state has a positive obligation to provide shelter, subsistence, and dignity to destitute widows living in religious towns who have been abandoned by their families, as part of Article 21's guarantee of life with dignity.",
+    "principle": "Dignity is a non-negotiable component of the right to life; structural abandonment of marginalised women by family and state alike constitutes a systemic violation of fundamental rights requiring judicial intervention.",
+    "summary": "An NGO petitioned on behalf of thousands of destitute widows living in squalid conditions in Vrindavan's ashrams, abandoned by families and surviving on temple charity. The Court directed the state government to conduct a survey, extend welfare scheme benefits, provide housing under PMAY, and constitute a monitoring committee with civil society representation."
+  },
+  {
+    "id": 67,
+    "title": "Pooja Chauhan v. Union of India",
+    "year": 2021,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "menstrual leave",
+      "article 15",
+      "workplace equality",
+      "gender",
+      "right to health"
+    ],
+    "holding": "The absence of a statutory menstrual leave policy does not itself violate the Constitution, but employer practices penalising women for health-related absences tied to menstruation are discriminatory under Article 15 and the maternity benefit framework.",
+    "principle": "Sex-specific physiological needs are a relevant distinction for workplace accommodation; treating women's health-related absences as general misconduct ignores biological difference in a manner that perpetuates inequality.",
+    "summary": "A corporate employee challenged dismissal for absences she had taken due to severe dysmenorrhea, arguing the employer's attendance policy unlawfully penalised a sex-specific health condition. The Court held the dismissal discriminatory, directed reinstatement with back wages, and issued guidelines for employers to establish health accommodation policies covering menstrual disorders, pending comprehensive legislative action."
+  },
+  {
+    "id": 68,
+    "title": "Lata Singh v. State of Rajasthan",
+    "year": 2016,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "inter-caste marriage",
+      "article 21",
+      "right to choose partner",
+      "social ostracism",
+      "police protection"
+    ],
+    "holding": "An adult's right to choose a life partner of their own free will is an integral aspect of personal liberty and the right to life; the state must provide protection to couples facing threats from family or community on account of their choice of partner.",
+    "principle": "Neither caste, religion, nor community can override an adult's constitutionally protected right to marry a person of their choice; police have an affirmative duty to protect such couples upon request.",
+    "summary": "A couple belonging to different castes sought protection after being threatened by the woman's family and community panchayat following their registered marriage. The Court directed the Rajasthan police to provide round-the-clock protection, held senior officers accountable for failures in protection, and directed district authorities to designate a protection officer for inter-caste couples in every district."
+  },
+  {
+    "id": 69,
+    "title": "Sanjay Singh v. Election Commission of India",
+    "year": 2024,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "VVPAT",
+      "electronic voting machines",
+      "right to vote",
+      "article 326",
+      "election integrity"
+    ],
+    "holding": "Voters have a constitutionally grounded right to verifiable evidence that their vote has been correctly recorded; the Election Commission must expand VVPAT slip verification to a statistically meaningful percentage of EVMs in every constituency.",
+    "principle": "Free and fair elections are a basic feature of the Constitution; the integrity of the voting process is not merely a statutory matter but a constitutional imperative supporting the right to vote.",
+    "summary": "Political parties and civil society groups challenged the practice of verifying VVPAT slips in only five EVMs per constituency as statistically insufficient to detect systematic manipulation. The Court directed the Election Commission to increase VVPAT verification to a minimum of 25% of EVMs per constituency and to publish a methodology report before every general election."
+  },
+  {
+    "id": 70,
+    "title": "Prakriti Sanstha v. Ministry of Coal",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "coal mining",
+      "forest diversion",
+      "elephant corridor",
+      "article 48A",
+      "wildlife"
+    ],
+    "holding": "Forest clearance for open-cast coal mining that bisects a notified elephant corridor is void as it conflicts with the Wildlife Protection Act and the constitutional mandate to protect wildlife under Article 48A.",
+    "principle": "Economic development interests cannot override the state's non-derogable constitutional duty to protect endangered species and their habitats; clearances that sever migration corridors imperil species survival and are impermissible.",
+    "summary": "An environmental organisation challenged the grant of forest clearance for a coal block that crossed a central government-notified elephant corridor in a biodiversity-rich forest landscape. The Court quashed the clearance, directed the National Board for Wildlife to recommend an alternative alignment, and imposed a moratorium on all mining activity within 10 km of notified elephant corridors pending review."
+  },
+  {
+    "id": 71,
+    "title": "Mohd. Salim Khan v. State of Assam",
+    "year": 2019,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "detention centres",
+      "article 22",
+      "illegal immigrants",
+      "CAA",
+      "article 21"
+    ],
+    "holding": "Persons detained in foreigner detention centres pending deportation must be held in conditions meeting minimum humane standards and cannot be detained beyond a reasonable period if deportation is impossible.",
+    "principle": "Detention that is indefinite because the receiving country refuses repatriation becomes arbitrary and unconstitutional; the state must release such persons under surveillance conditions rather than continue indefinite incarceration.",
+    "summary": "Petitioners had been held in Assam's foreigner detention centres for over five years after Bangladesh refused to accept them for deportation. The Court held that indefinite detention where deportation is impossible violates Article 21, directed release on bail with reporting conditions, and mandated minimum standards for food, healthcare, and legal access in all detention centres."
+  },
+  {
+    "id": 72,
+    "title": "Kaveri Nair v. State of Karnataka",
+    "year": 2023,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "sexual assault survivors",
+      "two-finger test",
+      "dignity",
+      "article 21",
+      "evidence"
+    ],
+    "holding": "The two-finger test conducted on sexual assault survivors is an unconstitutional and unscientific procedure that violates bodily integrity and dignity; its results are inadmissible as evidence and its use attracts disciplinary action against the medical professional.",
+    "principle": "The state's obligation to protect survivors of sexual violence includes protection from further violation through medical procedures that have no evidentiary value and cause additional trauma.",
+    "summary": "A survivor of gang rape was subjected to the two-finger test by a government hospital during the forensic examination, and the test results were relied upon by the trial court to cast doubt on her testimony. The Court excluded the evidence, directed the Medical Council of India to prohibit the test through binding regulations, and ordered compensation for the institutional harm caused by its use."
+  },
+  {
+    "id": 73,
+    "title": "Ashok Gehlot v. Governor of Rajasthan",
+    "year": 2020,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "governor's discretion",
+      "floor test",
+      "article 175",
+      "constitutional convention",
+      "trust vote"
+    ],
+    "holding": "A Governor cannot indefinitely defer or refuse to summon a legislative assembly for a floor test when the Chief Minister makes a formal request citing a credible challenge to the government's majority.",
+    "principle": "The Governor's discretionary powers under the Constitution are narrowly confined; refusal to act on a cabinet's advice to summon a floor test, absent exceptional constitutional reasons, constitutes a partisan act amenable to judicial review.",
+    "summary": "The Chief Minister of Rajasthan sought a special assembly session to prove his majority following defection of MLAs, but the Governor declined to summon the House citing pending proceedings. The Court held that the Governor is constitutionally obligated to summon the assembly within 24 hours of a valid cabinet recommendation for a trust vote and directed compliance forthwith."
+  },
+  {
+    "id": 74,
+    "title": "Shaheen Bagh Residents' Association v. Commissioner of Police, Delhi",
+    "year": 2021,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "right to protest",
+      "article 19",
+      "public space",
+      "road blockade",
+      "proportionality"
+    ],
+    "holding": "The right to peaceful protest is fundamental but does not include the right to indefinitely occupy public roads and thoroughfares, thereby denying the general public their right to free movement.",
+    "principle": "All fundamental rights, including the right to protest, are subject to reasonable restrictions; the state may clear persistent blockades of public infrastructure after providing protesters a reasonable opportunity to relocate to designated protest areas.",
+    "summary": "Residents of adjacent areas challenged a months-long road blockade by protesters at Shaheen Bagh that prevented vehicular access. The Court upheld the right to peaceful protest while holding that indefinite occupation of public roads is not constitutionally protected, directed the designated authority to provide an alternative protest venue, and laid down principles for proportionate state responses to sustained protests."
+  },
+  {
+    "id": 75,
+    "title": "Justice K.S. Hegde Foundation v. Union of India",
+    "year": 2018,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "lokpal",
+      "anti-corruption",
+      "article 253",
+      "ombudsman",
+      "constitutional accountability"
+    ],
+    "holding": "The government's continued failure to appoint a Lokpal despite the Lokpal and Lokayuktas Act coming into force constitutes a violation of the Act and, where it deprives citizens of an anti-corruption remedy, implicates Articles 14 and 21.",
+    "principle": "Statutory ombudsman institutions created by Parliament to give effect to constitutional goals of good governance must be operationalised promptly; executive inaction in appointments is not a permissible form of legislative nullification.",
+    "summary": "A former judge's foundation petitioned after the Lokpal remained unestablished for four years post-enactment due to government inaction on the appointment process. The Court held the inaction contrary to legislative intent and constitutional governance norms, fixed a six-week deadline for the Search Committee to submit names, and reserved power to appoint a Lokpal directly in the event of further non-compliance."
+  },
+  {
+    "id": 76,
+    "title": "Zainab Hussain v. State of Jammu & Kashmir",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "article 370",
+      "J&K reorganisation",
+      "federalism",
+      "state rights",
+      "constitutional amendment"
+    ],
+    "holding": "The President's power to abrogate Article 370 through a Presidential Order issued under Article 370(3) is constitutionally valid, but the bifurcation of a state into two Union Territories without the state legislature's consent raises serious federalism concerns requiring future legislative restoration of statehood.",
+    "principle": "Parliamentary sovereignty in matters of state reorganisation under Article 3 is broad, but constitutional commitments to federalism and democratic representation create an obligation to restore the democratic process in the affected territory within a reasonable time.",
+    "summary": "Residents and politicians from Jammu & Kashmir challenged the constitutional validity of Presidential Orders abrogating Article 370 and the Jammu & Kashmir Reorganisation Act bifurcating the state. A five-judge bench upheld the abrogation but imposed a binding timeline on the government to restore statehood and hold elections, treating the UT status as a temporary administrative arrangement."
+  },
+  {
+    "id": 77,
+    "title": "Pravin Bhalerao v. Bombay Municipal Corporation",
+    "year": 2017,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "slum dwellers",
+      "right to shelter",
+      "article 21",
+      "forced eviction",
+      "urban poor"
+    ],
+    "holding": "Demolition of slum dwellings without prior survey, without notice to residents, and without provision of alternative accommodation violates the right to shelter as a component of Article 21.",
+    "principle": "The right to life includes the right to a dwelling; the state may not render persons homeless in the pursuit of urban development without discharging its obligation to provide adequate resettlement.",
+    "summary": "Thousands of slum dwellers in Mumbai were evicted overnight to facilitate a road-widening project without the mandatory 15-day notice under the Municipal Corporation Act or any alternative accommodation. The Court quashed the demolition order, directed the BMC to survey all affected families, provide temporary transit accommodation within 48 hours, and integrate them into the slum rehabilitation scheme within six months."
+  },
+  {
+    "id": 78,
+    "title": "Prakash Singh v. Union of India",
+    "year": 2021,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "police reforms",
+      "article 14",
+      "article 21",
+      "institutional independence",
+      "political interference"
+    ],
+    "holding": "State governments that have failed to implement Supreme Court-mandated police reforms after over a decade of non-compliance are in contempt of court and must show cause why penalties should not be imposed on the Chief Secretaries concerned.",
+    "principle": "Judicial directions to reform public institutions that affect citizens' fundamental rights are binding; the passage of time does not dilute the obligation to comply with constitutional court orders.",
+    "summary": "A former DGP petitioner renewed his 2006 police reforms petition noting that the majority of states had not implemented the Court's landmark 2006 directions on establishing Police Complaints Authorities, fixed DGP tenures, and separation of investigation from law-and-order duties. The Court issued contempt notices to non-compliant states and appointed a monitoring committee to report on implementation every four months."
+  },
+  {
+    "id": 79,
+    "title": "Medha Patkar v. Narmada Control Authority",
+    "year": 2019,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "dam displacement",
+      "rehabilitation",
+      "article 21",
+      "tribal rights",
+      "infrastructure projects"
+    ],
+    "holding": "Project authorities may not raise dam levels to operational height until all project-affected persons displaced by the resulting submergence have received complete rehabilitation in accordance with the resettlement policy.",
+    "principle": "Development projects cannot constitutionally proceed on the premise that the rights of displaced persons will be addressed subsequently; rehabilitation is a pre-condition for construction, not an afterthought.",
+    "summary": "Environmental and tribal rights groups challenged the Narmada Control Authority's approval of raising the Sardar Sarovar Dam height while over 40,000 families remained unrehabilitated. The Court held that dam raising prior to full rehabilitation violates the rights of displaced persons under Article 21 and the project's own resettlement conditions, ordered suspension of construction until verified rehabilitation of all displaced families."
+  },
+  {
+    "id": 80,
+    "title": "Digital Empowerment Foundation v. Ministry of Telecommunications",
+    "year": 2024,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "right to internet",
+      "article 19",
+      "digital divide",
+      "rural connectivity",
+      "universal service"
+    ],
+    "holding": "The state's obligation under Article 19(1)(a) and the right to education and livelihood includes a positive duty to ensure basic internet connectivity in areas where access to government services, education, and commerce is contingent on digital access.",
+    "principle": "As essential public services and constitutional rights become exercisable only through digital infrastructure, access to internet connectivity assumes the character of a prerequisite for the enjoyment of fundamental rights.",
+    "summary": "An NGO petitioned on behalf of rural communities in aspirational districts where the absence of mobile internet meant exclusion from online education, digital PDS authentication, and telemedicine. The Court held that digital exclusion in such circumstances engages Article 21 and directed the Department of Telecommunications to complete BharatNet implementation in all gram panchayats within 18 months under court monitoring."
+  },
+  {
+    "id": 81,
+    "title": "National Federation of the Blind v. Prasar Bharati",
+    "year": 2020,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "disability rights",
+      "accessibility",
+      "article 14",
+      "RPwD Act",
+      "media accessibility"
+    ],
+    "holding": "Public broadcaster's failure to provide audio description and sign language interpretation for news and public information broadcasts violates the Rights of Persons with Disabilities Act and the constitutional right to equality.",
+    "principle": "Equality in the digital age requires accessible media; the state and public institutions must not design communication infrastructure that structurally excludes persons with sensory disabilities.",
+    "summary": "Federations representing visually impaired and deaf persons challenged Prasar Bharati's failure to provide audio descriptions, subtitles, and sign language windows on Doordarshan's national news broadcasts after eight years of the RPwD Act's mandate. The Court set a 12-month compliance deadline, imposed a daily penalty for non-compliance thereafter, and directed the Ministry of Information to prescribe accessibility standards for private broadcasters as well."
+  },
+  {
+    "id": 82,
+    "title": "Harshil Shah v. Income Tax Department",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "search and seizure",
+      "income tax",
+      "article 19",
+      "right to privacy",
+      "proportionality"
+    ],
+    "holding": "Bulk seizure of business records, electronic devices, and personal correspondence during income tax raids must be strictly proportionate to the specific tax liability under inquiry; indiscriminate seizure beyond the scope of the search warrant violates Article 19(1)(f) and the right to privacy.",
+    "principle": "Tax enforcement powers, however broad their statutory scope, must be exercised proportionately; state agents cannot use fiscal investigations as a pretext for wholesale invasion of a person's private and business affairs.",
+    "summary": "A business family challenged the seizure of all their computers, phones, family correspondence, and property documents during an income tax raid where the predicate inquiry was limited to a specific transaction. The Court held the seizure overbroad, ordered return of non-evidentiary materials, and directed the CBDT to prescribe proportionality guidelines for search operations."
+  },
+  {
+    "id": 83,
+    "title": "Mukta Arts Ltd. v. Central Board of Film Certification",
+    "year": 2016,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "film certification",
+      "article 19",
+      "political satire",
+      "censorship",
+      "creative freedom"
+    ],
+    "holding": "Refusal to certify a film that is a political satire of identifiable but unnamed public figures solely on grounds of likely political offence exceeds the CBFC's statutory mandate and constitutes unconstitutional censorship.",
+    "principle": "Political satire is a constitutionally protected form of expression; its potential to embarrass those in power is not a ground for prohibition, which is confined to statutory categories of harmful content.",
+    "summary": "A production house challenged the CBFC's refusal to certify a satirical film about corruption in the fictional state of 'Pradeshpur', which the board found to be obviously modelled on a real state government. The Court held that political satire attracting governmental displeasure cannot be suppressed, ordered certification of the film with minor modifications to remove specific identifiers, and cautioned against using the certification process to protect governments from criticism."
+  },
+  {
+    "id": 84,
+    "title": "Suheldev Bhartiya Samaj Party v. Union of India",
+    "year": 2023,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "OBC political reservations",
+      "article 243D",
+      "panchayati raj",
+      "triple test",
+      "local body elections"
+    ],
+    "holding": "Reservation of seats for OBCs in local body elections cannot exceed 50% in aggregate and is constitutionally valid only if preceded by an empirical study by a dedicated commission into the backwardness of OBC communities in local bodies.",
+    "principle": "Political reservation for OBCs is not automatic; the triple test of dedicated commission, empirical data, and non-breach of the 50% ceiling is a constitutional precondition, failure of which invalidates the reservation.",
+    "summary": "OBC political reservation in Uttar Pradesh panchayat elections was challenged after the state issued reservation notifications without constituting a commission or gathering ward-level data. Applying the triple test laid down in Vikas Kishanrao Gawali, the Court struck down the notification and directed fresh elections without OBC reservation pending completion of a state-commissioned empirical study."
+  },
+  {
+    "id": 85,
+    "title": "Sanjiv Bhatt v. State of Gujarat",
+    "year": 2020,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "whistleblower protection",
+      "article 21",
+      "police officer",
+      "civil liberties",
+      "institutional retaliation"
+    ],
+    "holding": "A police officer who reports constitutional violations by superior officers in the chain of command is a whistleblower entitled to statutory and constitutional protection from institutional retaliation.",
+    "principle": "Loyalty to the Constitution supersedes loyalty to a superior officer; the state cannot use administrative mechanisms to punish officers for truthful disclosure of constitutional violations.",
+    "summary": "A senior IPS officer alleged persecution through multiple false cases filed after he deposed against a Chief Minister in communal violence proceedings. The Court held that the timing and pattern of cases against him constituted institutional retaliation, directed independent investigation of each case by an SIT untouched by state police, and ordered a compensation inquiry for the deprivation of service rights."
+  },
+  {
+    "id": 86,
+    "title": "Tamil Nadu Jallikattu Protection Society v. Union of India",
+    "year": 2023,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "animal cruelty",
+      "cultural rights",
+      "article 29",
+      "Prevention of Cruelty to Animals Act",
+      "traditional sport"
+    ],
+    "holding": "State legislation permitting Jallikattu subject to detailed animal welfare regulations is constitutionally valid; cultural rights under Article 29 may accommodate traditional practices provided they do not cross the threshold of deliberate cruelty prohibited by the Prevention of Cruelty to Animals Act.",
+    "principle": "Cultural heritage protection and animal welfare are both constitutional values; their reconciliation requires regulatory frameworks ensuring minimum welfare standards, not absolute prohibition or unregulated practice.",
+    "summary": "Animal rights organisations challenged Tamil Nadu's state law permitting regulated Jallikattu after the Supreme Court's earlier prohibition, arguing that no regulation could render the sport humane. The Court upheld the state law as a reasonable accommodation of the cultural right, conditioned on strict implementation of the prescribed welfare regulations including veterinary oversight and video documentation of every event."
+  },
+  {
+    "id": 87,
+    "title": "Ram Singh v. National Human Rights Commission",
+    "year": 2018,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "NHRC jurisdiction",
+      "human rights violations",
+      "article 21",
+      "state immunity",
+      "remedies"
+    ],
+    "holding": "The National Human Rights Commission's recommendations for compensation in cases of state human rights violations are not merely advisory; courts may enforce them as binding directions where the state has adopted the NHRC's findings without challenge.",
+    "principle": "The effectiveness of human rights institutions depends on the enforceability of their remedies; courts must read the Protection of Human Rights Act in a manner that gives NHRC recommendations practical effect.",
+    "summary": "A petitioner whose NHRC compensation recommendation had been ignored by the state government for three years sought judicial enforcement. The Court held that where the state has accepted the NHRC's factual findings, the compensation recommendation is enforceable as a judgment debt, directed payment within 30 days with interest, and recommended legislative amendment to grant NHRC's recommendations statutory enforceability."
+  },
+  {
+    "id": 88,
+    "title": "Patanjali Ayurved Ltd. v. Advertising Standards Council of India",
+    "year": 2024,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "misleading health claims",
+      "consumer protection",
+      "article 19",
+      "commercial speech",
+      "drug regulation"
+    ],
+    "holding": "Commercial speech promoting health products with claims of clinical efficacy is not protected by Article 19(1)(a) to the extent such claims are false, unverified, or misleading; courts may direct cessation of such advertising pending regulatory verification.",
+    "principle": "The constitutional protection of commercial speech does not extend to false or misleading health claims; consumer protection and public health are valid grounds for restricting such speech under Article 19(2).",
+    "summary": "Consumer groups and medical bodies sought a ban on television advertising by an AYUSH products company claiming permanent cures for chronic diseases without substantiating clinical trials. The Court directed immediate cessation of specific advertisements making unsubstantiated curative claims, fined the company, directed the FSSAI to publish a list of prohibited health claims, and scheduled a compliance hearing six weeks later."
+  },
+  {
+    "id": 89,
+    "title": "Sikh Educational Society v. State of Punjab",
+    "year": 2019,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "minority educational institutions",
+      "article 30",
+      "government aid",
+      "RTE Act",
+      "institutional autonomy"
+    ],
+    "holding": "Minority educational institutions receiving state grants may be subjected to regulatory oversight of financial management and academic standards, but may not be required to follow a government-prescribed admissions process that displaces the institution's right to prefer students of the minority community.",
+    "principle": "Article 30 guarantees minority institutions the right to administer their educational institutions; state aid creates accountability for standards but not the right to override the minority's preferential admissions choices.",
+    "summary": "The state government conditioned grant-in-aid to a Sikh school on compliance with a centralised admissions lottery replacing the school's merit-cum-community preference process. The Court upheld financial oversight as a condition of grant but struck down the admissions mandate, holding that Article 30's guarantee is substantially diluted if minority institutions cannot give preference to minority students in their admissions."
+  },
+  {
+    "id": 90,
+    "title": "Association of Victims of Bhopal Gas Tragedy v. Union of India",
+    "year": 2023,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "Bhopal gas tragedy",
+      "article 21",
+      "corporate liability",
+      "curative petition",
+      "adequate compensation"
+    ],
+    "holding": "The Union of India is obligated to seek additional compensation from the legal successors of Union Carbide Corporation for the inadequacy of the 1989 settlement in light of the actual extent of harm, and the court's earlier curative jurisdiction is reactivatable given the exceptional magnitude of the wrong.",
+    "principle": "Constitutional courts possess inherent power to reopen inadequate settlements in mass disaster cases where victims' rights under Article 21 have been compromised by a state that negotiated a settlement on their behalf without informed consent.",
+    "summary": "Survivor organisations filed a curative petition arguing that the 1989 settlement of $470 million was grossly inadequate given that courts subsequently found many more victims than originally counted. The Court accepted the curative petition on the question of adequacy, directed the government to compute the actual compensation gap based on current medical and demographic data, and constituted a three-judge panel to supervise ongoing remediation and medical relief."
+  },
+  {
+    "id": 91,
+    "title": "Shyam Benegal v. Central Board of Film Certification",
+    "year": 2017,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "documentary films",
+      "article 19",
+      "certification",
+      "historical truth",
+      "archival footage"
+    ],
+    "holding": "A documentary film presenting an accurate historical record of state violence, including archival news footage, cannot be denied certification on grounds that the footage may offend the dignity of those in public office depicted therein.",
+    "principle": "The historical record is a matter of public interest; suppressing accurate historical documentation through the certification process is a form of state-sponsored revisionism incompatible with freedom of expression.",
+    "summary": "A celebrated filmmaker challenged the CBFC's refusal to certify a documentary using archival footage of the 1984 anti-Sikh riots and official statements of the period, claiming it could incite communal tension. The Court held that truthful documentation of historical events, however uncomfortable to those responsible, is constitutionally protected, ordered certification, and issued guidelines prohibiting use of 'likely to offend public figures' as a certification ground."
+  },
+  {
+    "id": 92,
+    "title": "All India Students' Federation v. University Grants Commission",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "student rights",
+      "article 21",
+      "campus democracy",
+      "student unions",
+      "Lyngdoh Committee"
+    ],
+    "holding": "University refusal to hold student union elections in compliance with the Lyngdoh Committee guidelines violates students' right to participate in democratic processes as part of their right to education under Article 21A and the right to association under Article 19(1)(c).",
+    "principle": "Democratic participation in educational institutions is formative of the civic culture that the Constitution seeks to nurture; suppression of student representative bodies deprives students of a constitutionally recognised dimension of their educational experience.",
+    "summary": "Students across multiple central universities challenged persistent administrative deferrals of student union elections citing order concerns. The Court, relying on the Lyngdoh Committee Report which it had itself commissioned, directed all universities receiving UGC funding to hold student union elections annually in accordance with the guidelines and made non-compliance a ground for withholding UGC grants."
+  },
+  {
+    "id": 93,
+    "title": "Kali Prasad Sah v. State of Bihar",
+    "year": 2016,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "right to education",
+      "article 21A",
+      "teacher vacancies",
+      "RTE Act",
+      "state accountability"
+    ],
+    "holding": "A state government's deliberate policy of leaving teaching posts vacant in government primary schools, resulting in single-teacher schools unable to comply with Pupil-Teacher Ratio norms under the RTE Act, violates children's fundamental right to education.",
+    "principle": "The right to education is a fundamental right enforceable against the state; the state's financial convenience cannot justify systemic non-compliance with minimum quality standards prescribed by Parliament.",
+    "summary": "An educationist petitioned after survey data revealed that over 12,000 Bihar government primary schools operated with a single teacher for all classes, violating the RTE Act's PTR of 30:1. The Court held that RTE's PTR norms are judicially enforceable, directed filling of all teaching vacancies within one academic year, and appointed the State Education Commissioner as an officer of the court for compliance reporting."
+  },
+  {
+    "id": 94,
+    "title": "Apna Ghar Foundation v. State of Haryana",
+    "year": 2021,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "human trafficking",
+      "article 23",
+      "shelter homes",
+      "child protection",
+      "state neglect"
+    ],
+    "holding": "The state is constitutionally liable for the trafficking and sexual exploitation of children occurring within state-funded and state-supervised shelter homes; supervisory failure at such facilities is a direct violation of Article 23 and Articles 21 and 39(e).",
+    "principle": "State-funded institutions for vulnerable children stand in loco parentis; the constitutional duty to protect children from exploitation is not dischargeable by delegating management to private NGOs without effective oversight.",
+    "summary": "A women's rights foundation petitioned after an investigation revealed systematic sexual exploitation of minor girls in a state-funded shelter home, with local administration aware but inactive. The Court held the state directly liable, directed CBI investigation of all shelter home staff and supervisory officials, awarded interim compensation to victims, and directed a nationwide audit of all government-funded children's shelter homes."
+  },
+  {
+    "id": 95,
+    "title": "Bombay Bar Association v. Ministry of Law and Justice",
+    "year": 2023,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "court fees",
+      "access to justice",
+      "article 21",
+      "article 39A",
+      "legal aid"
+    ],
+    "holding": "Excessive court fees that effectively price out litigants of modest means from seeking civil remedies constitute a denial of access to justice and are unconstitutional to the extent they exceed what is necessary to defray administrative costs.",
+    "principle": "Access to courts is a fundamental facet of the rule of law and the right to life; the state cannot use court fees as a revenue mechanism that renders civil justice inaccessible to the poor.",
+    "summary": "The Bar Association challenged the Bombay High Court's schedule of ad valorem court fees applicable to commercial suits, which resulted in fees of several crore rupees on larger property disputes, effectively confining commercial civil litigation to wealthy parties. The Court held that court fees must be proportionate, not confiscatory, directed the Law Commission to recommend a revised fee structure on a cost-recovery basis within one year, and capped fees for non-commercial civil suits in the interim."
+  },
+  {
+    "id": 96,
+    "title": "Centre for Child Rights v. Ministry of Women and Child Development",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "child labour",
+      "article 24",
+      "bonded child labour",
+      "POCSO",
+      "rehabilitation"
+    ],
+    "holding": "Employment of children under 14 in any hazardous occupation, including domestic service and roadside eateries, is an absolute constitutional prohibition under Article 24 that applies regardless of whether the child's family consents or economic necessity is pleaded.",
+    "principle": "Article 24's prohibition is categorical and non-derogable; poverty of the family and the child's apparent willingness are constitutionally irrelevant to the question of violation.",
+    "summary": "An NGO petitioned following raids across three cities that found over 2,000 children under 14 employed as domestic workers and dhaba helpers, many transported from distant states in conditions of debt bondage. The Court declared such employment unconstitutional, directed immediate rescue and rehabilitation under the National Child Labour Project, awarded compensation from the Child Labour Rehabilitation cum Welfare Fund, and directed states to establish hotlines and district-level nodal officers for child labour reporting."
+  },
+  {
+    "id": 97,
+    "title": "Dr. Y.S. Jagan Reddy v. Central Vigilance Commission",
+    "year": 2018,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "CVC independence",
+      "anti-corruption",
+      "article 14",
+      "vigilance institutions",
+      "government accountability"
+    ],
+    "holding": "The Central Vigilance Commission's advice on disciplinary matters involving corruption is advisory to the appointing authority, but systematic disregard of CVC recommendations by ministries without recorded reasons amounts to an arbitrary exercise of disciplinary power.",
+    "principle": "Institutional advice from a constitutionally appointed vigilance body must be engaged with on merits; blanket rejection of CVC recommendations without recorded reasons renders disciplinary disposals arbitrary and judicially reviewable.",
+    "summary": "A petitioner challenged the exoneration of senior government officers in corruption cases despite CVC recommendations for major penalties, arguing that ministries routinely overrode CVC advice without explanation. The Court directed that all future departures from CVC recommendations be accompanied by written reasons filed with the CVC, directed retrospective review of 50 recent departure cases, and referred the broader issue of CVC institutional empowerment to a three-member expert committee."
+  },
+  {
+    "id": 98,
+    "title": "Forum Against Caste Atrocities v. State of Tamil Nadu",
+    "year": 2024,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "caste discrimination",
+      "two-tumbler system",
+      "article 17",
+      "untouchability",
+      "Dalit rights"
+    ],
+    "holding": "The two-tumbler system and other practices of untouchability in tea stalls and public eating places are violators of Article 17 and the Protection of Civil Rights Act; local authorities permitting such practices are liable for dereliction of constitutional duty.",
+    "principle": "Article 17 abolishes untouchability absolutely and in all its forms; the state's duty to enforce this abolition is active, not passive — silence in the face of continuing practice constitutes state complicity.",
+    "summary": "An advocacy group documented the widespread practice in rural Tamil Nadu tea stalls of serving Dalit customers in separate vessels kept on the ground while upper-caste customers used regular cups. The Court held each documented instance a violation of Article 17, directed state prosecution of stall owners under the PCR Act, made district collectors personally responsible for eliminating the practice in their districts within six months, and ordered surprise audits by district-level monitoring teams."
+  },
+  {
+    "id": 99,
+    "title": "Rajendra Singh Rana v. Uttarakhand State Election Commission",
+    "year": 2021,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "gram sabha",
+      "panchayati raj",
+      "article 243A",
+      "participatory democracy",
+      "local governance"
+    ],
+    "holding": "Gram Sabhas must be convened at the frequencies and for the purposes prescribed by state Panchayati Raj Acts; administrative cancellation or indefinite deferral of Gram Sabha meetings violates the constitutional guarantee of participatory local democracy.",
+    "principle": "The Gram Sabha is the foundational institution of constitutional local governance; it is not a consultative formality but a decision-making body whose convening is a constitutional obligation of panchayat functionaries.",
+    "summary": "Residents petitioned after the Gram Sabha of their village had not been convened for over two years, causing vital welfare scheme approvals and social audit functions to lapse. The Court held that failure to convene the Gram Sabha at the statutory frequency violates Articles 243A and 243G, directed the Panchayat President to convene a meeting within 15 days under the supervision of the District Magistrate, and issued state-wide directions for mandatory quarterly Gram Sabha meetings with mandatory social audit agendas."
+  },
+  {
+    "id": 100,
+    "title": "Irom Sharmila v. Union of India",
+    "year": 2022,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "AFSPA",
+      "Manipur",
+      "article 21",
+      "armed forces immunity",
+      "repeal"
+    ],
+    "holding": "Parliament's failure to review the Armed Forces (Special Powers) Act in light of sustained judicial findings of its use to perpetrate extrajudicial killings over six decades is constitutionally unacceptable; the Court constitutes a permanent oversight committee to monitor AFSPA-related deaths and report to it annually.",
+    "principle": "Legislation that has been judicially found repeatedly to facilitate gross violations of the right to life must be subject to meaningful periodic review; the doctrine of constitutional stasis does not protect laws that have become instruments of systematic rights violation.",
+    "summary": "A petition by the iconic civil rights activist and former Manipur MLA sought repeal or fundamental reform of AFSPA following decades of documented atrocities. While stopping short of striking down the Act, the Court held that the state's failure to investigate AFSPA-related deaths is a pattern of unconstitutional conduct, constituted a three-member judicial oversight committee, directed annual AFSPA impact reports to be laid before Parliament, and set a five-year review deadline for the Court to assess whether the oversight regime had been effective."
+  },
+  {
+    "id": 101,
+    "title": "Kesavananda Bharati v. State of Kerala",
+    "year": 1973,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "basic structure doctrine",
+      "article 368",
+      "constitutional amendment",
+      "judicial review",
+      "parliamentary power"
+    ],
+    "holding": "While Parliament has the power to amend any part of the Constitution under Article 368, it cannot amend or destroy the 'basic structure' or framework of the Constitution.",
+    "principle": "The basic structure of the Constitution is inviolable; judicial review is a part of this basic structure.",
+    "summary": "This landmark case involved a challenge to the 24th, 25th, and 29th Amendments. A 13-judge bench held that the power to amend does not include the power to abrogate the core identity of the Constitution."
+  },
+  {
+    "id": 102,
+    "title": "Maneka Gandhi v. Union of India",
+    "year": 1978,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "article 21",
+      "personal liberty",
+      "due process",
+      "natural justice",
+      "passport act"
+    ],
+    "holding": "The right to travel abroad is part of personal liberty under Article 21; any law depriving a person of liberty must not only be a 'procedure established by law' but must also be just, fair, and reasonable.",
+    "principle": "Articles 14, 19, and 21 are not mutually exclusive; they form a golden triangle of fundamental rights.",
+    "summary": "The petitioner's passport was impounded without giving reasons. The Court expanded the scope of Article 21 to include procedural due process and natural justice."
+  },
+  {
+    "id": 103,
+    "title": "Justice K.S. Puttaswamy (Retd.) v. Union of India",
+    "year": 2017,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "right to privacy",
+      "article 21",
+      "aadhaar",
+      "surveillance",
+      "informational privacy"
+    ],
+    "holding": "The Right to Privacy is a fundamental right protected under Articles 14, 19, and 21 of the Constitution.",
+    "principle": "Privacy is the core of human dignity and liberty.",
+    "summary": "A 9-judge bench unanimously declared privacy as a fundamental right, overruling MP Sharma and Kharak Singh. It established the triple test of legality, necessity, and proportionality for state intervention."
+  },
+  {
+    "id": 104,
+    "title": "Navtej Singh Johar v. Union of India",
+    "year": 2018,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "section 377 IPC",
+      "LGBTQ+ rights",
+      "article 14",
+      "article 15",
+      "sexual orientation"
+    ],
+    "holding": "Section 377 of the IPC, insofar as it criminalises consensual sexual acts between adults in private, is unconstitutional.",
+    "principle": "Constitutional morality must prevail over social morality; sexual orientation is a natural attribute of privacy and dignity.",
+    "summary": "The Court decriminalised consensual homosexual acts, holding that the classification under Section 377 was arbitrary and violated the right to equality and dignity."
+  },
+  {
+    "id": 105,
+    "title": "A.K. Gopalan v. State of Madras",
+    "year": 1950,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "preventive detention",
+      "article 21",
+      "procedure established by law",
+      "habeas corpus"
+    ],
+    "holding": "Article 21 only covers 'procedure established by law' and not 'due process'; fundamental rights are separate and not linked.",
+    "principle": "Limited interpretation of personal liberty in the early years of the republic.",
+    "summary": "One of the first major cases on fundamental rights. While largely overruled by Maneka Gandhi, it remains a critical baseline for understanding Indian constitutional evolution."
+  },
+  {
+    "id": 106,
+    "title": "Minerva Mills Ltd. v. Union of India",
+    "year": 1980,
+    "jurisdiction": "Supreme Court of India",
+    "tags": [
+      "basic structure",
+      "judicial review",
+      "directive principles",
+      "fundamental rights"
+    ],
+    "holding": "Parliament's power to amend the Constitution is limited; judicial review is a part of the basic structure.",
+    "principle": "Fundamental Rights and Directive Principles are two wheels of a chariot; neither should be sacrificed for the other.",
+    "summary": "The Court struck down sections of the 42nd Amendment which sought to give precedence to DPSP over Fundamental Rights and restrict judicial review."
+  }
+]
