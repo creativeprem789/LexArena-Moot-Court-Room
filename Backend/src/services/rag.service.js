@@ -1,27 +1,6 @@
-/**
- * RAG Service — Retrieval-Augmented Generation for Legal Cases
- *
- * Loads 100 landmark legal cases into memory and provides multi-strategy
- * semantic retrieval for both the Prosecution and Defense.
- *
- * Retrieval strategies:
- *   1. TF-IDF keyword overlap    — broad lexical matching
- *   2. Tag-set intersection      — category/domain matching
- *   3. Jurisdiction boost        — same-court precedents weighted higher
- *   4. Year recency boost        — more recent cases slightly favoured
- *   5. Adversarial counter-case  — cases that cut AGAINST the user's argument
- *
- * Public API
- * ----------
- *   retrieveForProsecution(userArg, caseId, topK)
- *   retrieveForDefense(userArg, caseId, topK)
- *   retrieveForOpening(caseData, topK)
- *   formatContextBlock(cases, perspective)
- */
 
 const legalCases = require('../data/indian-legal-cases.json');
 
-// ─── Stop-words ─────────────────────────────────────────────────────────────
 const STOP_WORDS = new Set([
   'the','and','for','that','this','with','was','are','has','have',
   'its','not','but','from','they','their','been','would','can',
@@ -32,7 +11,6 @@ const STOP_WORDS = new Set([
   'law','legal','argue','argued','argument','argues',
 ]);
 
-// ─── Utilities ────────────────────────────────────────────────────────────────
 
 function tokenize(text) {
   return text
@@ -46,9 +24,7 @@ function filterTokens(tokens) {
   return tokens.filter(t => !STOP_WORDS.has(t));
 }
 
-/**
- * Build a normalised TF map for a piece of text.
- */
+
 function buildTF(text) {
   const tokens = filterTokens(tokenize(text));
   const map = {};
@@ -58,9 +34,7 @@ function buildTF(text) {
   return map;
 }
 
-/**
- * Cosine-style overlap score between two TF maps.
- */
+
 function tfOverlap(mapA, mapB) {
   let score = 0;
   for (const t in mapA) {
@@ -69,7 +43,7 @@ function tfOverlap(mapA, mapB) {
   return score;
 }
 
-// Pre-compute TF maps for every case field once at startup
+
 const caseIndexes = legalCases.map(c => ({
   ...c,
   _tf: buildTF([c.title, c.summary, c.holding, c.principle, ...c.tags].join(' ')),
@@ -77,18 +51,12 @@ const caseIndexes = legalCases.map(c => ({
   _titleTokens: new Set(filterTokens(tokenize(c.title))),
 }));
 
-// ─── Scoring Strategies ──────────────────────────────────────────────────────
 
-/**
- * Core TF-IDF-style score — how relevant is the case to the query?
- */
 function scoreTFIDF(legalCase, queryTF) {
   return tfOverlap(queryTF, legalCase._tf);
 }
 
-/**
- * Tag-intersection bonus — domain alignment bonus.
- */
+
 function scoreTagIntersection(legalCase, queryTokens) {
   let bonus = 0;
   for (const qt of queryTokens) {
@@ -101,9 +69,7 @@ function scoreTagIntersection(legalCase, queryTokens) {
   return bonus;
 }
 
-/**
- * Recency boost — slightly prefer modern cases (post-2000).
- */
+
 function scoreRecency(legalCase) {
   if (legalCase.year >= 2015) return 0.08;
   if (legalCase.year >= 2000) return 0.04;
@@ -111,9 +77,6 @@ function scoreRecency(legalCase) {
   return 0;
 }
 
-/**
- * Jurisdiction match boost — same court carries more authority.
- */
 function scoreJurisdiction(legalCase, targetJurisdiction) {
   if (!targetJurisdiction) return 0;
   const tj = targetJurisdiction.toLowerCase();
@@ -122,8 +85,6 @@ function scoreJurisdiction(legalCase, targetJurisdiction) {
   if (cj.includes('supreme') && tj.includes('supreme')) return 0.06;
   return 0;
 }
-
-// ─── Composite Scorer ────────────────────────────────────────────────────────
 
 /**
  * Returns a combined relevance score for a case given a query.
@@ -140,11 +101,8 @@ function scoreCase(legalCase, queryTF, queryTokens, opts = {}) {
 
   let combined = tfidf + tags + recency + juris;
 
-  // Adversarial mode: invert to find *counter-precedents*.
-  // Cases that are relevant to the topic but whose holding contradicts
-  // the defence position (e.g. cases favouring state/prosecution).
+  
   if (opts.invertSignal) {
-    // Heuristic: cases where the state/government prevailed — relevant for Indian SC
     const pro_govt_tokens = new Set([
       'government','state','prosecution','upheld','affirm','convicted',
       'liability','guilty','dismissed','constitutional','valid','rejected',
@@ -159,11 +117,7 @@ function scoreCase(legalCase, queryTF, queryTokens, opts = {}) {
   return combined;
 }
 
-// ─── Retrieval Functions ─────────────────────────────────────────────────────
 
-/**
- * Generic internal retrieval.
- */
 function _retrieve(query, opts = {}, topK = 3) {
   const { jurisdiction, invertSignal, excludeIds = [] } = opts;
   const queryTokens = filterTokens(tokenize(query));
@@ -300,10 +254,6 @@ Tags: ${c.tags.join(', ')}
     .join('\n\n');
 }
 
-/**
- * Build a compact citation string for inline use inside prompts.
- * e.g.  "Carpenter v. US (2018); Riley v. California (2014)"
- */
 function formatCitationInline(cases) {
   return cases.map(c => `${c.title} (${c.year})`).join('; ');
 }

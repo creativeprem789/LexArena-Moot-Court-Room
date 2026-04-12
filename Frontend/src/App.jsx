@@ -12,10 +12,8 @@ import './index.css';
 function App() {
   return (
     <BrowserRouter>
-      {/* Container wraps around the routes. Mesh background removed to not interfere with explicit page backgrounds */}
       <div className="app-container">
         <Routes>
-          {/* Default route renders the Landing page */}
           <Route path="/" element={<Landing />} />
           <Route path="/login" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
