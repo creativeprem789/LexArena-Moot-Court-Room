@@ -34,7 +34,7 @@ LexArena-Moot-Court-Room/
 │   ├── public/              # Static assets
 │   ├── src/
 │   │   ├── assets/          # Icons and images
-│   │   ├── components/      # Reusable UI elements
+│   │ 
 │   │   ├── views/           # Core pages (MootCourt, Dashboard)
 │   │   ├── App.jsx          # Main routing logic
 │   │   └── index.css        # Global design system
