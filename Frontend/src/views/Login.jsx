@@ -4,7 +4,7 @@ import './Login.css';
 const Login = () => {
   const handleGoogleLogin = () => {
     // Redirects to the Backend Google Auth Endpoint
-    window.location.href = 'http://localhost:5000/auth/google';
+    window.location.href = `${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/auth/google`;
   };
 
   return (
