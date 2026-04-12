@@ -141,7 +141,7 @@ Visit the live deployment here: [Lex Arena Moot Court](https://lex-arena-moot.ve
 ---
 
 **Built By Team Integers
-   Khushi Kumari
-   Ayushman Mohanty
-   Prem Kumar Rai
-   Diksha Wagisha
+- Khushi Kumari
+- Ayushman Mohanty
+- Prem Kumar Rai
+- Diksha Wagisha
