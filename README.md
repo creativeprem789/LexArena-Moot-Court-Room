@@ -14,6 +14,8 @@ The platform is anchored in **Indian Constitutional Law**, providing a realistic
 - **Indian Legal Context**: Tailored to Article 21, Article 19, and Article 14, including landmark cases like *Puttaswamy* and *Kesavananda Bharati*.
 
 ---
+<img width="1896" height="954" alt="image" src="https://github.com/user-attachments/assets/5fd556d4-52bb-4f4f-9f0b-9f517751134c" />
+
 
 ## Folder Structure
 
@@ -126,7 +128,7 @@ cd LexArena-Moot-Court-Room
 ---
 
 ## Live Demo
-Visit the live deployment here: [Lex Arena Moot Court](https://lex-arena-moot.vercel.app/) *(Placeholder)*
+Visit the live deployment here: [Lex Arena Moot Court](https://lex-arena-moot-court-room.vercel.app/) *(Placeholder)*
 
 ---
 
