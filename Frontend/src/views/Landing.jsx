@@ -32,13 +32,6 @@ const Landing = () => {
       {/* Navbar */}
       <nav className="landing-navbar animate-on-scroll">
         <div className="nav-logo">LexArena</div>
-        <div className="nav-links">
-          <a href="#case-law">Case Law</a>
-          <a href="#bench" className="active">The Bench</a>
-          <a href="#precedents">Precedents</a>
-          <a href="#features">Features</a>
-          <a href="#pricing">Pricing</a>
-        </div>
         <div className="nav-actions">
           <button className="nav-cta" onClick={() => navigate('/login')}>Login</button>
           <div className="nav-profile-icon">
@@ -51,7 +44,7 @@ const Landing = () => {
       </nav>
 
       {/* Hero Section */}
-      <header className="hero-section">
+      <header className="hero-section" id="bench">
         <div className="hero-background animate-zoom-in" style={{ backgroundImage: "url('/indian_courtroom_bg.png')" }}></div>
         <div className="hero-overlay"></div>
         <div className="hero-content">
@@ -67,28 +60,9 @@ const Landing = () => {
         </div>
       </header>
 
-      {/* Stats Section */}
-      <section className="stats-section animate-on-scroll">
-        <div className="stat-item animate-on-scroll delay-1">
-          <span className="stat-label">ACTIVE SCHOLARS</span>
-          <span className="stat-value">15,000<span className="stat-plus">+</span></span>
-        </div>
-        <div className="stat-item animate-on-scroll delay-2">
-          <span className="stat-label">SIMULATED CASES</span>
-          <span className="stat-value">2.4M</span>
-        </div>
-        <div className="stat-item animate-on-scroll delay-3">
-          <span className="stat-label">AI BENCH PRECISION</span>
-          <span className="stat-value">99.8%</span>
-        </div>
-        <div className="stat-item animate-on-scroll delay-4">
-          <span className="stat-label">LEGAL INSTITUTIONS</span>
-          <span className="stat-value">142</span>
-        </div>
-      </section>
 
       {/* Features Section */}
-      <section className="features-section">
+      <section className="features-section" id="features">
         <div className="features-header animate-on-scroll">
           <h2 className="features-title">Editorial Command. Digital Precision.</h2>
           <p className="features-description">
@@ -116,7 +90,7 @@ const Landing = () => {
               Instant semantic analysis of your oral arguments. Identify logical fallacies and emotional resonance scores as you speak.
             </p>
           </div>
-          <div className="feature-card animate-on-scroll delay-3">
+          <div className="feature-card animate-on-scroll delay-3" id="precedents">
             <div className="feature-icon">
               {/* Library/Book icon SVG */}
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
@@ -129,25 +103,9 @@ const Landing = () => {
         </div>
       </section>
 
-      {/* Testimonial Section */}
-      <section className="testimonial-section animate-on-scroll">
-        <div className="quote-icon animate-on-scroll delay-1">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" fillOpacity="0.2"/></svg>
-        </div>
-        <blockquote className="testimonial-quote animate-on-scroll delay-2">
-          "LexArena has transformed our advocacy program. It creates a space where students can fail safely and succeed spectacularly."
-        </blockquote>
-        <div className="testimonial-author animate-on-scroll delay-3">
-          <img src="/dean_profile.png" alt="Dean Sarah Jenkins" className="author-image" />
-          <div className="author-info">
-            <div className="author-name">DEAN SARAH JENKINS</div>
-            <div className="author-title">MARY BEE SCHOOL OF LAW</div>
-          </div>
-        </div>
-      </section>
 
       {/* Bottom CTA Section */}
-      <section className="bottom-cta-section">
+      <section className="bottom-cta-section" id="pricing">
         <div className="bottom-cta-card animate-on-scroll">
           <div className="cta-left">
             <h2 className="cta-title">Ready to defend your thesis?</h2>

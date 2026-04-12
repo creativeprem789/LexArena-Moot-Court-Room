@@ -145,6 +145,7 @@ const CaseDetail = () => {
   };
 
   const handleSubmit = () => {
+    if (uploadedFiles.length === 0) return;
     setSubmitStatus('submitting');
     setTimeout(() => {
       navigate('/moot-court', {
@@ -176,15 +177,15 @@ const CaseDetail = () => {
     <div className="cd-layout">
       {/* ── Sidebar ────────────────────────────────── */}
       <aside className="cd-sidebar">
-        <div className="cd-sidebar-header">
+        <div className="cd-sidebar-header" onClick={() => navigate('/')} style={{ cursor: 'pointer', textDecoration: 'none', color: 'inherit' }}>
           <div className="cd-logo-box">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="cd-logo-icon">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
             </svg>
           </div>
           <div className="cd-logo-text">
-            <h2>Superior<br />Court</h2>
-            <span>REGISTRY OFFICE</span>
+            <h2 style={{ whiteSpace: 'nowrap' }}>Lex Arena</h2>
+            <span>LEGAL &amp; MOOT</span>
           </div>
         </div>
 
@@ -314,8 +315,9 @@ const CaseDetail = () => {
             </div>
           </div>
 
-          {/* ── Case Overview ── */}
-          <section className="cd-section">
+          <div className="cd-main-grid">
+            {/* ── Case Overview ── */}
+            <section className="cd-section">
             <h2 className="cd-section-title">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
@@ -476,10 +478,15 @@ const CaseDetail = () => {
                 </button>
 
                 <div className="cd-submit-right">
-                  <span className="cd-submit-note">ALL DOCUMENTS MUST BE SIGNED<br />VIA DIGITAL JURIST KEYS BEFORE<br />INITIALIZATION.</span>
+                  <span className="cd-submit-note" style={{ color: uploadedFiles.length === 0 ? 'var(--cd-text-gray)' : 'inherit' }}>
+                    {uploadedFiles.length === 0 
+                      ? <>DOCUMENT RECORD INCOMPLETE<br />UPLOAD AT LEAST 1 DOCUMENT<br />TO PROCEED.</>
+                      : <>ALL DOCUMENTS MUST BE SIGNED<br />VIA DIGITAL JURIST KEYS BEFORE<br />INITIALIZATION.</>}
+                  </span>
                   <button
-                    className={`cd-submit-btn ${submitStatus === 'submitting' ? 'cd-submitting' : ''}`}
+                    className={`cd-submit-btn ${submitStatus === 'submitting' ? 'cd-submitting' : ''} ${uploadedFiles.length === 0 ? 'cd-submit-disabled' : ''}`}
                     onClick={handleSubmit}
+                    disabled={submitStatus === 'submitting' || uploadedFiles.length === 0}
                   >
                     {submitStatus === 'submitting' ? (
                       <>
@@ -522,7 +529,8 @@ const CaseDetail = () => {
                 ENTER COURTROOM NOW →
               </button>
             </section>
-          )}
+            )}
+          </div>
         </div>
       </main>
     </div>

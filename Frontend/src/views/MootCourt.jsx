@@ -126,6 +126,7 @@ const MootCourt = () => {
   const [userSubmitCount, setUserSubmitCount] = useState(0);
   const [rebuttal,        setRebuttal]        = useState('');
   const [showVerdictModal,setShowVerdictModal]= useState(false);
+  const [violationCount,  setViolationCount]  = useState(0);
   
   // ── AI/RAG History state ─────────────────
   const [history,         setHistory]         = useState([]);
@@ -218,12 +219,40 @@ const MootCourt = () => {
         retrievedPrecedents, 
         defenseRetrievedPrecedents,
         loopholeDetected,
-        judgeInterruption 
+        judgeInterruption,
+        isViolation
       } = res.data;
 
       // Update analytics
       setArgStrength(score);
       setAnalystNote(scoreNote);
+
+      let currentViolations = violationCount;
+      if (isViolation) {
+        currentViolations += 1;
+        setViolationCount(currentViolations);
+      }
+
+      if (currentViolations > 2) {
+        setFinalVerdict({
+           ruling: "SESSION TERMINATED: Repeated Contempt of Court.\nThe court has found the petitioner's counsel in repeated, willful contempt due to unprofessional, off-topic, or abusive conduct. This behavior is unacceptable in the Supreme Court of India.",
+           outcome: "LOSS",
+           reasoning: "The session was terminated prematurely after 3 serious violations.",
+           strengths: "None.",
+           weaknesses: "Counsel repeatedly failed to adhere to professional courtroom standards despite multiple judicial warnings.",
+           metrics: {
+             proceduralFinesse: 0,
+             precedentApplication: 0,
+             responsivenessScore: 0,
+             logicalStructureScore: 0
+           },
+           benchAdvice: "Return to the Case Library and review the basics of courtroom etiquette and procedural relevance before attempting another moot session."
+        });
+        setPhase('terminated');
+        setShowVerdictModal(true);
+        return;
+      }
+
       if (retrievedPrecedents) {
         const uniquePrecedents = Array.from(new Set([...citedCases, ...retrievedPrecedents.map(p => p.title)]));
         setCitedCases(uniquePrecedents);
@@ -289,7 +318,7 @@ const MootCourt = () => {
 
       {/* ══════════ SIDEBAR ══════════ */}
       <aside className="mc-sidebar">
-        <div className="mc-sidebar-brand">
+        <div className="mc-sidebar-brand" onClick={() => navigate('/dashboard')} style={{ cursor: 'pointer' }}>
           <div className="mc-brand-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
@@ -377,16 +406,7 @@ const MootCourt = () => {
 
           {/* LEFT PANEL */}
           <aside className="mc-left-panel">
-            <div className="mc-strength-card">
-              <div className="mc-strength-header">
-                <span className="mc-panel-label" style={{marginBottom:0}}>ARGUMENT STRENGTH</span>
-                <span className="mc-strength-pct" style={{ color: strengthColor }}>{argStrength}%</span>
-              </div>
-              <div className="mc-strength-bar-bg">
-                <div className="mc-strength-bar-fill" style={{ width: `${argStrength}%`, background: strengthColor }} />
-              </div>
-              <div className="mc-strength-markers"><span>WEAK</span><span>MODERATE</span><span>STRONG</span></div>
-            </div>
+
 
             <div className="mc-analyst-card">
               <div className="mc-analyst-header">

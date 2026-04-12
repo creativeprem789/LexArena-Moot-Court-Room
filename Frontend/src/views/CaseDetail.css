@@ -314,10 +314,17 @@
 
 /* ── Content Wrap ── */
 .cd-content-wrap {
-  padding: 2.5rem 3rem 4rem;
+  padding: 1.5rem 3rem 2rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
+}
+
+.cd-main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
 }
 
 /* ── Docket Bar ── */
@@ -375,7 +382,7 @@
   background: var(--cd-section-bg);
   border: 1px solid var(--cd-border);
   border-radius: 8px;
-  padding: 2.5rem;
+  padding: 1.5rem 2rem;
 }
 
 .cd-section-title {

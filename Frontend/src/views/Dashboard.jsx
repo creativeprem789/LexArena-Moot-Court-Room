@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import './Dashboard.css';
 
 const Dashboard = () => {
@@ -26,15 +26,15 @@ const Dashboard = () => {
     <div className="dashboard-layout">
       {/* Sidebar */}
       <aside className="sidebar">
-        <div className="sidebar-header">
+        <Link to="/" className="sidebar-header">
           <div className="logo-box">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="logo-icon"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
           </div>
           <div className="logo-text">
-            <h2>Superior<br/>Court</h2>
-            <span>REGISTRY OFFICE</span>
+            <h2>Lex Arena</h2>
+            <span>LEGAL SIMULATION</span>
           </div>
-        </div>
+        </Link>
 
         <nav className="sidebar-nav">
           <a className="nav-item">
@@ -44,14 +44,6 @@ const Dashboard = () => {
           <a className="nav-item active">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
             CASE LIBRARY
-          </a>
-          <a className="nav-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 13.5V16.5l-4 4-4-4v-3L10 9.5l4 4zM2 14l5-5M22 14l-5-5"></path><circle cx="16" cy="6" r="3"></circle></svg>
-            MOOT ARENA
-          </a>
-          <a className="nav-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path></svg>
-            LEADERBOARD
           </a>
         </nav>
 
@@ -75,7 +67,6 @@ const Dashboard = () => {
             <div className="top-nav-links">
               <a>DASHBOARD</a>
               <a className="active">CASE LIBRARY</a>
-              <a>MOOT ARENA</a>
             </div>
           </div>
           <div className="top-nav-right">
@@ -98,59 +89,50 @@ const Dashboard = () => {
             <p className="description">Explore a comprehensive repository of legal precedents, judicial opinions, and foundational cases that shape contemporary jurisprudence.</p>
           </div>
           <div className="page-header-actions">
-            <button className="btn-outline">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
-              FILTERS
-            </button>
-            <button className="btn-solid">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
-              SAVED CASES
-            </button>
           </div>
         </div>
 
         <div className="featured-section">
           <div className="featured-card">
-            <div className="featured-image-container">
-              <img src="/case_featured.png" alt="Right to Privacy - Puttaswamy" />
-              <span className="image-tag">CONSTITUTIONAL</span>
-            </div>
             <div className="featured-content">
-              <span className="featured-label">SUPREME COURT OF INDIA</span>
-              <h2>Justice K.S. Puttaswamy<br/>(Retd.) v. Union of India</h2>
-              <span className="case-year">(2017) 10 SCC 1 · Nine-Judge Bench</span>
-              <p>The Supreme Court unanimously declared the right to privacy a fundamental right under Article 21 of the Constitution. The judgment overruled M.P. Sharma and Kharak Singh, establishing that privacy is intrinsic to life, liberty, and dignity — and subject to the triple test of legality, necessity, and proportionality.</p>
-              <div className="featured-footer">
-                <a className="read-more" onClick={() => handleCardClick('CASE #IND-001')}>READ FULL CASE &rarr;</a>
-                <svg viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+              <span className="featured-label">EDITORIAL SELECTION • SUPREME COURT OF INDIA</span>
+              <h2>Justice K.S. Puttaswamy (Retd.) v. Union of India</h2>
+              <span className="case-citation-meta">2017 • Nine-Judge Constitutional Bench</span>
+              <p>Establishing the fundamental right to privacy under Article 21. This landmark ruling introduced the triple test of legality, necessity, and proportionality for state intervention, fundamentally reshaping Indian digital and personal jurisprudence.</p>
+              <div className="featured-card-actions">
+                <button className="btn-solid" onClick={() => handleCardClick('CASE #IND-001')}>EXAMINE FULL PRECEDENT</button>
               </div>
             </div>
           </div>
           
-          <div className="jurisdiction-sidebar">
-            <h3>Browse by Court</h3>
-            <ul className="jurisdiction-list">
+          <div className="upcoming-features-sidebar">
+            <h3 className="section-title">UPCOMING FEATURES</h3>
+            <ul className="features-list">
               <li>
-                <span>SUPREME COURT OF INDIA</span>
-                <span className="count">100</span>
+                <strong>Interactive Bench Reactions</strong>
+                <span>Dynamic visual feedback from the Judge's avatar (nodding, skepticism) based on real-time AI scoring.</span>
               </li>
               <li>
-                <span>HIGH COURTS</span>
-                <span className="count">0</span>
+                <strong>Live 1v1 Interaction</strong>
+                <span>Practise in a live proceeding against human opponents to experience true adversarial debate.</span>
               </li>
               <li>
-                <span>TRIBUNALS (NGT, NCLT)</span>
-                <span className="count">0</span>
+                <strong>Voice-to-Argument</strong>
+                <span>Full integration with Web Speech API for immersive oral advocacy and presentation training.</span>
               </li>
               <li>
-                <span>CONSTITUTION BENCH</span>
-                <span className="count">18</span>
+                <strong>Multi-Jurisdiction Library</strong>
+                <span>Expanding beyond Constitutional Law into Criminal, Corporate, and International law modules.</span>
+              </li>
+              <li>
+                <strong>Advanced Legal Analytics</strong>
+                <span>In-depth reports covering sentiment analysis, win/loss ratios, and specific identification of legal blunders.</span>
+              </li>
+              <li>
+                <strong>Global Competency Platform</strong>
+                <span>Access a global leaderboard to network with experienced individuals and gain prestige in the legal community.</span>
               </li>
             </ul>
-            <div className="editors-note">
-              <h4>EDITOR'S NOTE</h4>
-              <p>"The Constitution is not merely a document — it is a living charter that evolves with the aspirations of the people."</p>
-            </div>
           </div>
         </div>
 
@@ -172,7 +154,6 @@ const Dashboard = () => {
           <div className="case-card" onClick={() => handleCardClick('CASE #IND-001')} style={{ cursor: 'pointer' }}>
             <div className="case-card-header">
               <span className="case-id">CASE #IND-001</span>
-              <svg viewBox="0 0 24 24" fill="transparent" stroke="#aaa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
             </div>
             <h3>Sharma v. Union of India</h3>
             <span className="case-citation">(2019) Supreme Court of India</span>
@@ -190,7 +171,6 @@ const Dashboard = () => {
           <div className="case-card" onClick={() => handleCardClick('CASE #IND-002')} style={{ cursor: 'pointer' }}>
             <div className="case-card-header">
               <span className="case-id">CASE #IND-002</span>
-              <svg viewBox="0 0 24 24" fill="transparent" stroke="#aaa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
             </div>
             <h3>Mohammed Yusuf v. National Investigation Agency</h3>
             <span className="case-citation">(2022) Supreme Court of India</span>
@@ -208,7 +188,6 @@ const Dashboard = () => {
           <div className="case-card" onClick={() => handleCardClick('CASE #IND-003')} style={{ cursor: 'pointer' }}>
             <div className="case-card-header">
               <span className="case-id">CASE #IND-003</span>
-              <svg viewBox="0 0 24 24" fill="#000" stroke="#000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
             </div>
             <h3>Ananya Foundation v. Ministry of Environment</h3>
             <span className="case-citation">(2023) Supreme Court of India</span>
@@ -224,43 +203,8 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <div className="bottom-modules">
-          <div className="historical-archive">
-            <img src="/historical_archive.png" alt="Historical Archives" />
-            <div className="overlay-box">
-              <h3>Constitutional Bench Archives</h3>
-              <span className="period">1950 — PRESENT</span>
-              <button className="btn-solid-small">ACCESS VAULT</button>
-            </div>
-          </div>
-
-          <div className="comparative-module">
-            <span className="subtitle">DEEP RESEARCH</span>
-            <h2>Indian<br/>Jurisprudence Module</h2>
-            <p className="description">Our editorial engine allows you to analyse landmark Indian Supreme Court judgments — from the Kesavananda Bharati basic structure doctrine to the Puttaswamy privacy test. Explore how constitutional law has evolved in India's federal judicial system.</p>
-            
-            <div className="module-buttons">
-              <button className="module-btn">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 3h5v5"></path><path d="M4 20L21 3"></path><path d="M21 16v5h-5"></path><path d="M15 15l6 6"></path><path d="M4 4l5 5"></path></svg>
-                <span>CROSS-<br/>ANALYSIS</span>
-              </button>
-              <button className="module-btn">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-                <span>CITE-CHECKING</span>
-              </button>
-              <button className="module-btn">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
-                <span>DRAFTING AIDS</span>
-              </button>
-            </div>
-          </div>
-        </div>
       </main>
 
-      {/* Floating Action Button */}
-      <div className="fab">
-        <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-      </div>
     </div>
   );
 };

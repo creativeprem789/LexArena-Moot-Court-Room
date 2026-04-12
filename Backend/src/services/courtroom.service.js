@@ -185,15 +185,23 @@ DO NOT repeat points, arguments, or questions that already exist in the "EXCHANG
    - Detect if there are significant "loopholes" (logical gaps, factual errors, or failure to address prosecution's points).
    - Score the argument (0-100) on: (a) Constitutional grounding, (b) Factual precision, (c) Precedent use, (d) Logical clarity.
 
+4. BEHAVIOR & RELEVANCE CHECK (CRITICAL)
+   - If the DEFENSE COUNSEL'S CURRENT ARGUMENT contains gibberish, is completely off-topic, or contains abusive/unprofessional language:
+     - The Judge MUST issue a severe warning for 'Contempt of Court' or unprofessional conduct.
+     - The Prosecution should briefly condemn the opposing counsel's conduct.
+     - The score MUST be 0, and the scoreNote MUST reflect the penalty for unprofessional conduct or irrelevance.
+     - Set "isViolation" to true. Otherwise, set it to false.
+
 Return ONLY a valid JSON object:
 {
   "prosecution": "...",
   "judge": "...",
   "loopholeDetected": boolean,
-  "judgeInterruption": "...", // Only populate if loopholeDetected is true, else empty string
+  "judgeInterruption": "...", 
   "score": <number 0-100>,
   "scoreNote": "...",
-  "citedCases": ["case name 1", "case name 2"]
+  "citedCases": ["case name 1", "case name 2"],
+  "isViolation": boolean
 }
 `.trim();
 
@@ -203,6 +211,7 @@ Return ONLY a valid JSON object:
     score: 45,
     scoreNote: '[System Notice]: The court is assessing your previous argument. Please ensure you cite specific Supreme Court precedents (e.g., "Kesavananda Bharati") to strengthen your position.',
     citedCases: prosecutionCases.slice(0, 2).map(c => c.title),
+    isViolation: false,
   };
 
   const aiResponse = await callGemini(prompt, fallback);
