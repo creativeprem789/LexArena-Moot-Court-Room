@@ -569,14 +569,18 @@ button {
 }
 
 @media (max-width: 1024px) {
+  .dashboard-layout {
+    display: block; /* Break flex so main content takes 100% */
+  }
+
   .sidebar {
     position: fixed;
     top: 0;
     left: -280px;
     height: 100vh;
-    z-index: 100;
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 10px 0 30px rgba(0,0,0,0.05);
+    z-index: 1000;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: 15px 0 40px rgba(0,0,0,0.1);
   }
 
   .sidebar.open {
@@ -584,35 +588,44 @@ button {
   }
 
   .sidebar-close {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .menu-toggle {
     display: block;
+    margin-right: 1.5rem;
   }
 
   .main-content {
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 1.5rem 2rem 1.5rem;
+    width: 100%;
   }
 
   .top-nav {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem 0;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
   }
 
   .top-nav-links {
-    display: none; /* Hide top nav links on mobile, they are in the sidebar */
+    display: none;
   }
 
   .featured-section {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 2.5rem;
   }
 
   .upcoming-features-sidebar {
     border-left: none;
     border-top: 1px solid var(--border-color);
     padding-left: 0;
-    padding-top: 2rem;
+    padding-top: 2.5rem;
     max-height: none;
   }
 
@@ -622,7 +635,7 @@ button {
   }
 
   .title {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -630,8 +643,8 @@ button {
   .page-header {
     flex-direction: column;
     align-items: flex-start;
-    gap: 2rem;
-    margin-bottom: 2rem;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
   }
 
   .cases-grid {
@@ -640,15 +653,19 @@ button {
 
   .bottom-modules {
     grid-template-columns: 1fr;
-    gap: 3rem;
+    gap: 3.5rem;
   }
 
   .search-bar {
-    display: none; /* Hide search bar on very small screens to save space */
+    display: none; 
   }
 
   .featured-content h2 {
     font-size: 1.8rem;
+  }
+  
+  .comparative-module .description {
+    max-width: 100%;
   }
 }
 
@@ -658,14 +675,27 @@ button {
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .brand-title {
-    font-size: 0.6rem;
+    font-size: 0.65rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 120px;
   }
 
   .nav-icons {
     gap: 0.5rem;
+  }
+  
+  .featured-card-actions {
+    flex-direction: column;
+  }
+  
+  .featured-card-actions button {
+    width: 100%;
+    justify-content: center;
   }
 }

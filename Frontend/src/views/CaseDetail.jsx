@@ -94,8 +94,10 @@ const CaseDetail = () => {
   const [isDragging, setIsDragging] = useState(false);
   const [uploadedFiles, setUploadedFiles] = useState([]);
   const [submitStatus, setSubmitStatus] = useState('idle'); // idle | submitting | success
-  const [saveDraftStatus, setSaveDraftStatus] = useState('idle');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [saveDraftStatus, setSaveDraftStatus] = useState('idle');
   const fileInputRef = useRef(null);
 
   const ACCEPTED_TYPES = [

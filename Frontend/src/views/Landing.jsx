@@ -4,6 +4,7 @@ import './Landing.css';
 
 const Landing = () => {
   const navigate = useNavigate();
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -32,16 +33,42 @@ const Landing = () => {
       {/* Navbar */}
       <nav className="landing-navbar animate-on-scroll">
         <div className="nav-logo">LexArena</div>
+        
+        <div className="nav-links-desktop">
+          <a href="#bench" className="active">BENCH</a>
+          <a href="#features">FEATURES</a>
+          <a href="#precedents">PRECEDENTS</a>
+          <a href="#pricing">PRICING</a>
+        </div>
+
         <div className="nav-actions">
           <button className="nav-cta" onClick={() => navigate('/login')}>Login</button>
-          <div className="nav-profile-icon">
+          <div className="nav-profile-icon" onClick={() => setIsMenuOpen(true)}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
             </svg>
           </div>
         </div>
       </nav>
+
+      {/* Mobile Menu Overlay */}
+      {isMenuOpen && (
+        <div className="mobile-menu-overlay animate-on-scroll">
+          <div className="mobile-menu-content">
+            <button className="mobile-menu-close" onClick={() => setIsMenuOpen(false)}>×</button>
+            <div className="mobile-nav-links">
+              <a href="#bench" onClick={() => setIsMenuOpen(false)}>THE BENCH</a>
+              <a href="#features" onClick={() => setIsMenuOpen(false)}>FEATURES</a>
+              <a href="#precedents" onClick={() => setIsMenuOpen(false)}>PRECEDENTS</a>
+              <a href="#pricing" onClick={() => setIsMenuOpen(false)}>PRICING</a>
+              <hr />
+              <button className="mobile-login-btn" onClick={() => navigate('/login')}>LOGIN TO ARENA</button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Hero Section */}
       <header className="hero-section" id="bench">
