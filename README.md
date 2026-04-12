@@ -132,7 +132,7 @@ Visit the live deployment here: [Lex Arena Moot Court](https://lex-arena-moot.ve
 
 ## Future Improvements
 - **Interactive Bench Reactions**: Dynamic visual feedback from the Judge's avatar (nodding, skepticism) based on AI scoring.
-- **Live 1v1 Interaction:Two lawyers can practise at same time as live proceeding as their opponent.
+- **Live 1v1 Interaction**:Two lawyers can practise at same time as live proceeding as their opponent.
 - **Voice-to-Argument**: Integration with Web Speech API for oral advocacy training.
 - **Multi-Jurisdiction Library**: Expansion beyond Indian Constitutional Law into Criminal, Corporate, and International law modules.
 - **Advanced Legal Analytics**: Detailed session reports including sentiment analysis and historical win/loss ratios and blunders done by the student &               practioner.
