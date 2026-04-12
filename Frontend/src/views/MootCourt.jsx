@@ -3,7 +3,11 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
 import './MootCourt.css';
 
-const API_BASE = `${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/courtroom`;
+const getApiBase = () => {
+  const base = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  return base.endsWith('/') ? base.slice(0, -1) : base;
+};
+const API_BASE = `${getApiBase()}/api/courtroom`;
 
 /* ─────────────────────────────────────────────────────────────
    CASE SCRIPTS (Static Fallback/Metadata)

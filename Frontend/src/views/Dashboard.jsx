@@ -11,7 +11,9 @@ const Dashboard = () => {
 
   const handleLogout = async () => {
     try {
-      await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/auth/logout`, {
+      const apiBase = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const cleanBase = apiBase.endsWith('/') ? apiBase.slice(0, -1) : apiBase;
+      await fetch(`${cleanBase}/auth/logout`, {
         method: 'GET',
         credentials: 'include',
       });

@@ -3,8 +3,10 @@ import './Login.css';
 
 const Login = () => {
   const handleGoogleLogin = () => {
-    // Redirects to the Backend Google Auth Endpoint
-    window.location.href = `${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/auth/google`;
+    const apiBase = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+    // Remove trailing slash if present, then add /auth/google
+    const cleanBase = apiBase.endsWith('/') ? apiBase.slice(0, -1) : apiBase;
+    window.location.href = `${cleanBase}/auth/google`;
   };
 
   return (
