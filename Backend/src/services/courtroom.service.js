@@ -24,10 +24,10 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
  * If parsing fails, returns the fallback object.
  */
 async function callGemini(prompt, fallback = {}) {
-  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+  const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
   try {
-    const result   = await model.generateContent(prompt);
-    let text       = result.response.text();
+    const result = await model.generateContent(prompt);
+    let text = result.response.text();
 
     // 1. Detect and strip markdown code blocks if the model wrapped the JSON in one.
     // e.g., ```json { ... } ``` or ``` { ... } ```
@@ -38,7 +38,7 @@ async function callGemini(prompt, fallback = {}) {
 
     // 2. Extract the first valid JSON object using balanced brace matching logic or a greedy match.
     // The previous greedy match was fine, but we'll trim first to reduce noise.
-    const jsonStr  = text.match(/\{[\s\S]*\}/)?.[0];
+    const jsonStr = text.match(/\{[\s\S]*\}/)?.[0];
     if (!jsonStr) throw new Error('No JSON block found in response');
 
     return JSON.parse(jsonStr);
@@ -63,9 +63,9 @@ async function callGemini(prompt, fallback = {}) {
  */
 async function generateOpening(caseId, caseData) {
   // Retrieve precedents relevant to the case topic for the opening
-  const openingCases  = ragService.retrieveForOpening(caseData, 3);
-  const openingCtx    = ragService.formatContextBlock(openingCases, 'opening');
-  const openingCites  = ragService.formatCitationInline(openingCases);
+  const openingCases = ragService.retrieveForOpening(caseData, 3);
+  const openingCtx = ragService.formatContextBlock(openingCases, 'opening');
+  const openingCites = ragService.formatCitationInline(openingCases);
 
   const prompt = `
 You are an AI Moot Court System simulating a proceeding before the Supreme Court of India.
@@ -99,9 +99,9 @@ Return ONLY a valid JSON object:
 `.trim();
 
   const fallback = {
-    judge:        `Court is now in session. We are here to deliberate on ${caseData.title}. All parties, please be seated.`,
-    prosecution:  `Your Honor, the state intends to demonstrate that the defendant's actions directly contravene established legal principles. We will rely on precedent set in ${openingCites || 'established case law'} to show this beyond doubt.`,
-    defense:      `Your Honor, the defense respectfully submits that the prosecution's characterization is legally flawed. We will demonstrate that the facts, properly understood under current doctrine, favor our client entirely.`,
+    judge: `Court is now in session. We are here to deliberate on ${caseData.title}. All parties, please be seated.`,
+    prosecution: `Your Honor, the state intends to demonstrate that the defendant's actions directly contravene established legal principles. We will rely on precedent set in ${openingCites || 'established case law'} to show this beyond doubt.`,
+    defense: `Your Honor, the defense respectfully submits that the prosecution's characterization is legally flawed. We will demonstrate that the facts, properly understood under current doctrine, favor our client entirely.`,
     ragCasesUsed: openingCases.map(c => c.title),
   };
 
@@ -128,12 +128,12 @@ async function processArgument(caseId, userArg, history, caseMeta = {}) {
   // ── Dual RAG retrieval ──
   // Prosecution gets adversarial cases (govt/state wins relevant to this topic)
   const prosecutionCases = ragService.retrieveForProsecution(userArg, topicHint, 4);
-  const prosecutionCtx   = ragService.formatContextBlock(prosecutionCases, 'prosecution');
+  const prosecutionCtx = ragService.formatContextBlock(prosecutionCases, 'prosecution');
   const prosecutionCites = ragService.formatCitationInline(prosecutionCases);
 
   // Defence-side cases (to help the judge ask pointed follow-up questions)
-  const defenseCases     = ragService.retrieveForDefense(userArg, topicHint, 2);
-  const defenseCtx       = ragService.formatContextBlock(defenseCases, 'defense');
+  const defenseCases = ragService.retrieveForDefense(userArg, topicHint, 2);
+  const defenseCtx = ragService.formatContextBlock(defenseCases, 'defense');
 
   // ── Compose exchange history (last 18 turns max to stay within reasonable tokens) ──
   const recentHistory = history.slice(-18);
@@ -166,17 +166,20 @@ ${defenseCtx}
 
 === YOUR TASKS ===
 
+CRITICAL INSTRUCTION FOR REALISM: 
+DO NOT repeat points, arguments, or questions that already exist in the "EXCHANGE HISTORY". You must actively advance the legal discourse. If a precedent or argument was already used, introduce a new nuance, legal test, or factual distinction.
+
 1. STATE/RESPONDENT'S REBUTTAL (Advocate Persona)
    - Role: Advocate for the State/Union of India. Be **aggressive**, **forceful**, and **skeptical**.
-   - Directly refute the petitioner's argument. Use phrases like "The petitioner's contention is fundamentally flawed", "The State's interest in security/welfare takes precedence here".
-   - Cite at least 2 specific Indian Supreme Court cases from the "STATE/RESPONDENT'S RAG RETRIEVED PRECEDENTS" section.
-   - Reference Article 21, 14, 19 as they apply to the *State's* right to regulate.
+   - Directly refute the specific new claims in the petitioner's latest argument. Do NOT use generic filler.
+   - Cite at least 1 new Indian SC case from the "RAG RETRIEVED PRECEDENTS" that hasn't been overused.
+   - Reference Articles 21, 14, 19 in specific relation to the State's right to regulate, adding new dimensions (e.g. administrative necessity, public order).
 
 2. JUDICIAL QUERY & INTERRUPTION (Judge Persona)
    - Role: Supreme Court Justice. Be **impartial**, **analytical**, and **pointed**.
-   - If the petitioner's argument has a major loophole (e.g., ignoring a relevant fact, misciting a law, or creating a contradiction), you MUST "interrupt" with a sharp challenge.
-   - Reference a real Indian legal doctrine (e.g., "the double-jeopardy clause", "the doctrine of pith and substance", "the test of proportionality").
-   - This should feel like a Socratic dialogue, not just a standalone question.
+   - If the petitioner has a loophole (ignoring a fact, misciting law), MUST interrupt with a sharp challenge.
+   - The Judge MUST ask a completely new, distinct question each round. Never repeat "how do you reconcile... with basic structure" if it was already asked. Push the user on specific doctrines (e.g. pith and substance, proportionality test, double-jeopardy).
+   - Evolve the line of questioning Socratic-style based exactly on the user's latest input.
 
 3. ARGUMENT SCORE & LOOPHOLE DETECTION
    - Detect if there are significant "loopholes" (logical gaps, factual errors, or failure to address prosecution's points).
@@ -196,10 +199,10 @@ Return ONLY a valid JSON object:
 
   const fallback = {
     prosecution: `The State's position remains firm. As established in ${prosecutionCites || 'established precedent'}, the argument advanced by the petitioner requires more rigorous constitutional anchoring.`,
-    judge:       `Counsel, how do you reconcile your position with the principles of proportionality and the doctrine of basic structure as interpreted by this Hon'ble Court?`,
-    score:       45,
-    scoreNote:   '[System Notice]: The court is assessing your previous argument. Please ensure you cite specific Supreme Court precedents (e.g., "Kesavananda Bharati") to strengthen your position.',
-    citedCases:  prosecutionCases.slice(0, 2).map(c => c.title),
+    judge: `Counsel, how do you reconcile your position with the principles of proportionality and the doctrine of basic structure as interpreted by this Hon'ble Court?`,
+    score: 45,
+    scoreNote: '[System Notice]: The court is assessing your previous argument. Please ensure you cite specific Supreme Court precedents (e.g., "Kesavananda Bharati") to strengthen your position.',
+    citedCases: prosecutionCases.slice(0, 2).map(c => c.title),
   };
 
   const aiResponse = await callGemini(prompt, fallback);
@@ -229,7 +232,7 @@ async function generateVerdict(caseId, argHistory, finalScore) {
     .join(' ');
 
   const verdictCases = ragService.retrieveRelevantCases(verdictQuery || caseId, 3);
-  const verdictCtx   = ragService.formatContextBlock(verdictCases, 'judge');
+  const verdictCtx = ragService.formatContextBlock(verdictCases, 'judge');
 
   // Summarise the exchange for the verdict prompt
   const summarisedHistory = argHistory
@@ -277,12 +280,12 @@ Return ONLY a valid JSON object:
 }
 `.trim();
 
-  const outcome   = finalScore >= 70 ? 'WIN' : finalScore >= 45 ? 'NEUTRAL' : 'LOSS';
-  const fallback  = {
-    ruling:     `The court has deliberated on the arguments presented in case ${caseId}. After careful consideration of the arguments advanced by both sides, the court renders its decision.`,
+  const outcome = finalScore >= 70 ? 'WIN' : finalScore >= 45 ? 'NEUTRAL' : 'LOSS';
+  const fallback = {
+    ruling: `The court has deliberated on the arguments presented in case ${caseId}. After careful consideration of the arguments advanced by both sides, the court renders its decision.`,
     outcome,
-    reasoning:  `The defense achieved a performance score of ${finalScore}%, reflecting ${outcome === 'WIN' ? 'strong legal reasoning and effective use of precedent' : outcome === 'NEUTRAL' ? 'adequate arguments but notable gaps in legal grounding' : 'insufficient legal precision and limited engagement with controlling precedent'}.`,
-    strengths:  'The defense demonstrated some understanding of the core legal issues.',
+    reasoning: `The defense achieved a performance score of ${finalScore}%, reflecting ${outcome === 'WIN' ? 'strong legal reasoning and effective use of precedent' : outcome === 'NEUTRAL' ? 'adequate arguments but notable gaps in legal grounding' : 'insufficient legal precision and limited engagement with controlling precedent'}.`,
+    strengths: 'The defense demonstrated some understanding of the core legal issues.',
     weaknesses: 'Greater precision in citing controlling precedent would have strengthened the position.',
     metrics: {
       proceduralFinesse: finalScore,
