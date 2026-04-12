@@ -1,4 +1,4 @@
-# Lex Arena: Moot Court Simulation ⚖️
+# Lex Arena: Moot Court Simulation 
 
 Lex Arena is a professional-grade, AI-driven legal simulation platform designed for law students and practitioners in India. It simulates one of the most intellectually demanding environments: a **Supreme Court of India Moot Court**, where users argue cases against a highly-competitive AI Prosecution under the supervision of a Socratic AI Judge.
 
@@ -6,7 +6,7 @@ The platform is anchored in **Indian Constitutional Law**, providing a realistic
 
 ---
 
-## 🏛️ Project Features
+## Project Features
 - **Dynamic AI Personas**: Specialized Gemini-powered AI agents acting as a neutral, analytical **Judge** and an aggressive, adversarial **Prosecution**.
 - **Supreme Court RAG Engine**: A custom Retrieval-Augmented Generation system that fetches real Indian legal precedents to ground all arguments in judicial reality.
 - **Real-Time Analytics**: A live "Argument Strength" tracker that evaluates your legal reasoning, constitutional grounding, and factual precision.
@@ -15,7 +15,7 @@ The platform is anchored in **Indian Constitutional Law**, providing a realistic
 
 ---
 
-## 🏗️ Folder Structure
+## Folder Structure
 
 ```text
 LexArena-Moot-Court-Room/
@@ -44,7 +44,7 @@ LexArena-Moot-Court-Room/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework**: React.js (via Vite)
@@ -60,7 +60,7 @@ LexArena-Moot-Court-Room/
 
 ---
 
-## 🤖 AI Integration & Datasets
+## AI Integration & Datasets
 
 Lex Arena leverages state-of-the-art Generative AI models to power the courtroom experience:
 
@@ -76,7 +76,7 @@ Lex Arena leverages state-of-the-art Generative AI models to power the courtroom
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18+)
@@ -125,18 +125,23 @@ cd LexArena-Moot-Court-Room
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 Visit the live deployment here: [Lex Arena Moot Court](https://lex-arena-moot.vercel.app/) *(Placeholder)*
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 - **Interactive Bench Reactions**: Dynamic visual feedback from the Judge's avatar (nodding, skepticism) based on AI scoring.
-- **Citation Auto-Suggest**: An `@` mention system for citing precedents during live arguments.
+- **Live 1v1 Interaction:Two lawyers can practise at same time as live proceeding as their opponent.
 - **Voice-to-Argument**: Integration with Web Speech API for oral advocacy training.
 - **Multi-Jurisdiction Library**: Expansion beyond Indian Constitutional Law into Criminal, Corporate, and International law modules.
-- **Advanced Legal Analytics**: Detailed session reports including sentiment analysis and historical win/loss ratios.
+- **Advanced Legal Analytics**: Detailed session reports including sentiment analysis and historical win/loss ratios and blunders done by the student &               practioner.
+- We will make a system which ahs live leaderboard accessable globally so that it feels as competetive Learning Platform and will help them in netwroking with      experienced indivuduals
 
 ---
 
-**Built with ❤️ for Indian Law Students & Emerging Advocates.**
+**Built By Team Integers
+   Khushi Kumari
+   Ayushman Mohanty
+   Prem Kumar Rai
+   Diksha Wagisha
