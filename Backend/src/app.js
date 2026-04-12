@@ -33,4 +33,13 @@ app.get('/', (req, res) => {
   res.send('API is running...');
 });
 
+// DEBUG ROUTE - To verify deployment
+app.get('/debug-test', (req, res) => {
+  res.json({ 
+    status: 'success', 
+    message: 'Backend is running the LATEST code!',
+    time: new Date().toISOString()
+  });
+});
+
 module.exports = app;
