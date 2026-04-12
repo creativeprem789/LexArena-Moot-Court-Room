@@ -137,6 +137,7 @@ const MootCourt = () => {
   const [citedCases,      setCitedCases]      = useState(script.precedents);
   const [defenseCases,    setDefenseCases]    = useState([]);
   const [finalVerdict,    setFinalVerdict]    = useState(null);
+  const [isMenuOpen,      setIsMenuOpen]      = useState(false);
 
   const timerRef = useRef(null);
   const bubbleKey = useRef(0);
@@ -320,8 +321,14 @@ const MootCourt = () => {
   return (
     <div className="mc-layout">
 
+      {/* SIDEBAR OVERLAY */}
+      {isMenuOpen && <div className="mc-sidebar-overlay" onClick={() => setIsMenuOpen(false)} />}
+
       {/* ══════════ SIDEBAR ══════════ */}
-      <aside className="mc-sidebar">
+      <aside className={`mc-sidebar ${isMenuOpen ? 'mc-sidebar-open' : ''}`}>
+        <div className="mc-sidebar-close" onClick={() => setIsMenuOpen(false)}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </div>
         <div className="mc-sidebar-brand" onClick={() => navigate('/dashboard')} style={{ cursor: 'pointer' }}>
           <div className="mc-brand-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -390,6 +397,9 @@ const MootCourt = () => {
         {/* Top Bar */}
         <header className="mc-topbar">
           <div className="mc-topbar-left">
+            <div className="mc-menu-toggle" onClick={() => setIsMenuOpen(true)}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </div>
             <span className="mc-session-label">SESSION:</span>
             <span className="mc-session-title">{script.title}</span>
             <span className="mc-session-topic">{script.topic}</span>

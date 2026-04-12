@@ -860,3 +860,141 @@
 }
 
 .cd-back-dashboard-btn:hover { background: #333; }
+
+/* ────────────────────────────────────────────────────────────────
+   Media Queries — Responsive Overhaul
+   ──────────────────────────────────────────────────────────────── */
+
+.cd-menu-toggle {
+  display: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.cd-menu-toggle svg {
+  width: 24px;
+  height: 24px;
+  color: var(--cd-text-dark);
+}
+
+.cd-sidebar-close {
+  display: none;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+}
+
+.cd-sidebar-close svg {
+  width: 20px;
+  height: 20px;
+}
+
+.cd-sidebar-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  z-index: 99;
+}
+
+@media (max-width: 1024px) {
+  .cd-sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 100;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 10px 0 30px rgba(0,0,0,0.05);
+  }
+
+  .cd-sidebar.cd-open {
+    transform: translateX(250px);
+  }
+
+  .cd-sidebar-close { display: block; }
+  .cd-menu-toggle { display: block; }
+
+  .cd-top-nav-links { display: none; }
+  .cd-top-nav { padding: 1rem 2rem; }
+  .cd-phase-banner { padding: 0.75rem 2rem; }
+  .cd-content-wrap { padding: 1.5rem 2rem; }
+
+  .cd-main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cd-docket-bar {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .cd-docket-scales {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .cd-top-nav-right .cd-status-badge {
+    display: none; /* Hide badge on very small screens or move it */
+  }
+
+  .cd-phase-right {
+    display: none;
+  }
+
+  .cd-parties {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .cd-vs-divider {
+    justify-content: center;
+    padding: 0.5rem 0;
+  }
+
+  .cd-meta-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cd-action-bar {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+
+  .cd-submit-note {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .cd-submit-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cd-success-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .cd-top-nav, .cd-phase-banner, .cd-content-wrap {
+    padding: 1rem;
+  }
+
+  .cd-section-title {
+    font-size: 1.2rem;
+  }
+
+  .cd-meta-row {
+    grid-template-columns: 1fr;
+  }
+
+  .cd-drop-zone {
+    padding: 2rem 1rem;
+  }
+}

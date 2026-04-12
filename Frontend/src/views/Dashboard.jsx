@@ -4,6 +4,7 @@ import './Dashboard.css';
 
 const Dashboard = () => {
   const navigate = useNavigate();
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const handleCardClick = (caseId) => {
     navigate(`/case/${encodeURIComponent(caseId)}`, { state: { caseId } });
@@ -26,8 +27,14 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard-layout">
+      {/* Sidebar Overlay */}
+      {isMenuOpen && <div className="sidebar-overlay" onClick={() => setIsMenuOpen(false)} />}
+
       {/* Sidebar */}
-      <aside className="sidebar">
+      <aside className={`sidebar ${isMenuOpen ? 'open' : ''}`}>
+        <div className="sidebar-close" onClick={() => setIsMenuOpen(false)}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </div>
         <Link to="/" className="sidebar-header">
           <div className="logo-box">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="logo-icon"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
@@ -65,6 +72,9 @@ const Dashboard = () => {
       <main className="main-content">
         <header className="top-nav">
           <div className="top-nav-left">
+            <div className="menu-toggle" onClick={() => setIsMenuOpen(true)}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </div>
             <h3 className="brand-title">JUDICIAL EDITORIAL</h3>
             <div className="top-nav-links">
               <a>DASHBOARD</a>

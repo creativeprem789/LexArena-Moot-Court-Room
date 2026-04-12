@@ -95,6 +95,7 @@ const CaseDetail = () => {
   const [uploadedFiles, setUploadedFiles] = useState([]);
   const [submitStatus, setSubmitStatus] = useState('idle'); // idle | submitting | success
   const [saveDraftStatus, setSaveDraftStatus] = useState('idle');
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const fileInputRef = useRef(null);
 
   const ACCEPTED_TYPES = [
@@ -175,8 +176,14 @@ const CaseDetail = () => {
 
   return (
     <div className="cd-layout">
+      {/* Sidebar Overlay */}
+      {isMenuOpen && <div className="cd-sidebar-overlay" onClick={() => setIsMenuOpen(false)} />}
+
       {/* ── Sidebar ────────────────────────────────── */}
-      <aside className="cd-sidebar">
+      <aside className={`cd-sidebar ${isMenuOpen ? 'cd-open' : ''}`}>
+        <div className="cd-sidebar-close" onClick={() => setIsMenuOpen(false)}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </div>
         <div className="cd-sidebar-header" onClick={() => navigate('/')} style={{ cursor: 'pointer', textDecoration: 'none', color: 'inherit' }}>
           <div className="cd-logo-box">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="cd-logo-icon">
@@ -247,6 +254,9 @@ const CaseDetail = () => {
         {/* Top nav */}
         <header className="cd-top-nav">
           <div className="cd-top-nav-left">
+            <div className="cd-menu-toggle" onClick={() => setIsMenuOpen(true)}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </div>
             <h3 className="cd-brand-title">JUDICIAL EDITORIAL</h3>
             <div className="cd-top-nav-links">
               <a onClick={() => navigate('/dashboard')}>DASHBOARD</a>
