@@ -132,7 +132,7 @@ cd LexArena-Moot-Court-Room
 ---
 
 ## Live Demo
-Visit the live deployment here: [Lex Arena Moot Court](https://lex-arena-moot-court-room.vercel.app/) *(Placeholder)*
+Visit the live deployment here: [Lex Arena Moot Court](https://lex-arena-moot-court-room.vercel.app/) 
 
 ---
 
